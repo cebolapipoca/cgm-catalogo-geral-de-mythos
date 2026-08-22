@@ -1,0 +1,56 @@
+
+@keyframes BlinkBlink {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MainWelcome {
+    background: radial-gradient(circle,rgb(1, 51, 71) 30%, rgba(0, 24, 26, 1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+
+    & h1 {
+        color: rgb(3, 238, 255);
+        font-size: 80px;
+        letter-spacing: 10px;
+    }
+
+    & h2 {
+        color: white;
+        font-size: 37px;
+    }
+
+    & h3 {
+        font-size: 25px;
+        color: rgb(22, 235, 235);
+        margin-top: 50px;
+        animation-name: BlinkBlink;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        animation-delay: 1s;
+    }
+}

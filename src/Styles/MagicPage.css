@@ -1,0 +1,58 @@
+
+.MagicPage_Header {
+
+    & .input_label {
+        display: flex;
+        flex-direction: column;
+        padding: 10PX;
+
+        & label {
+            color: white;
+            padding: 10px;
+        }
+
+        & input {
+            width: 99%;
+            padding: 10px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid cyan;
+            color: white;
+            box-shadow: 1px 2px 4px cyan;
+        }
+
+        & input::placeholder {
+            color: white;
+        }
+
+        & select {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: transparent;
+            border: 1px solid cyan;
+            color: white;
+            box-shadow: 1px 2px 4px cyan;
+
+            & option {
+                background-color: cyan;
+                color: rgb(3, 105, 105);
+            }
+        }
+ 
+    }
+}
+
+.MagicPage_Magics {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+    box-sizing: border-box;
+    grid-auto-rows: auto;
+    align-items: start;
+}

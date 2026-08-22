@@ -1,0 +1,32 @@
+
+.MainMenuButton {
+    width: 20%;
+    border: 1px solid cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 14px;
+    padding: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    opacity: 60%;
+    transition: 1s;
+
+     & img {
+          width: 20%;
+     }
+
+     & h1 {
+          color: white;
+          font-size: 35px;
+     }
+}
+
+.MainMenuButton:hover {
+     opacity: 100%;
+     cursor: pointer;
+     box-shadow: 0px 8px 4px cyan;
+    
+}
