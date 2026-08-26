@@ -1,0 +1,604 @@
+
+[
+  {
+    "resultado": 1,
+    "extremo": "Uma explosão de fogo acontece com você no centro. Você e cada criatura a até 6 metros de você devem fazer um teste de resistência de Destreza contra sua CD de resistência de magia, sofrendo 5d6 de dano de fogo em uma falha, ou metade do dano em um sucesso.",
+    "moderado": "Pelo próximo dia, seu tom de pele muda de cor a cada 30 minutos, alternando pelas cores do arco-íris.",
+    "incomodo": "Uma poça de graxa aparece onde você está, com raio de 3 metros. Você e qualquer criatura a até 3 metros devem fazer um teste de Destreza contra sua CD de resistência de magia ou ficar caída."
+  },
+  {
+    "resultado": 2,
+    "extremo": "Você recupera todos os seus espaços de magia gastos.",
+    "moderado": "Você fica confuso por 1 minuto, como se estivesse sob efeito da magia Confusão.",
+    "incomodo": "Você levita 15 centímetros do chão por 1 minuto."
+  },
+  {
+    "resultado": 3,
+    "extremo": "Você perde a capacidade de ouvir por 1 dia.",
+    "moderado": "Sua Força aumenta em 2 por 1 dia.",
+    "incomodo": "Você ganha percepção sísmica de 9 metros por 1 minuto."
+  },
+  {
+    "resultado": 4,
+    "extremo": "Cada criatura a até 9 metros sofre 1d10 de dano necrótico. Você recupera pontos de vida iguais ao dano causado.",
+    "moderado": "Um terceiro olho aparece em sua testa, concedendo vantagem em testes de Sabedoria (Percepção) baseados em visão por 1 minuto.",
+    "incomodo": "Você não faz nenhum som por 1 minuto e ganha vantagem em testes de Destreza (Furtividade)."
+  },
+  {
+    "resultado": 5,
+    "extremo": "Você é teleportado para um plano alternativo e retorna ao local onde começou após 1 minuto.",
+    "moderado": "A próxima magia que você lançar no próximo minuto que cause dano tem o dano maximizado.",
+    "incomodo": "Você cria uma barba feita de penas, que permanece até você espirrar."
+  },
+  {
+    "resultado": 6,
+    "extremo": "Você se transforma em um grande barril vazio por 1 minuto. Durante esse tempo, é considerado petrificado.",
+    "moderado": "No próximo minuto, você pode se teleportar até 6 metros como parte do seu movimento em cada turno.",
+    "incomodo": "Você não pode falar por 1 minuto. Sempre que tentar, apenas bolhas rosas sairão de sua boca."
+  },
+  {
+    "resultado": 7,
+    "extremo": "Você fica no centro de uma magia Escuridão por 1 minuto.",
+    "moderado": "Você fica intoxicado por 2d6 horas.",
+    "incomodo": "Você fica imune à intoxicação pelos próximos 5d6 dias."
+  },
+  {
+    "resultado": 8,
+    "extremo": "Você fica apavorado da criatura mais próxima até o final do seu próximo turno.",
+    "moderado": "Sua Inteligência diminui em 2 por 1 dia.",
+    "incomodo": "Você recupera o seu espaço de magia de menor nível gasto."
+  },
+  {
+    "resultado": 9,
+    "extremo": "Você ganha resistência a todos os tipos de dano por 1 minuto.",
+    "moderado": "Sua Sabedoria aumenta em 2 por 1 dia.",
+    "incomodo": "Durante 1 minuto, você deve gritar sempre que falar."
+  },
+  {
+    "resultado": 10,
+    "extremo": "Uma criatura aleatória a até 18 metros fica envenenada por 1d4 horas.",
+    "moderado": "Durante 1 minuto, qualquer item inflamável que você tocar (que não esteja vestindo ou carregando) entra em chamas.",
+    "incomodo": "Borboletas ilusórias e pétalas de flores flutuam ao seu redor em um raio de 3 metros por 1 minuto."
+  },
+  {
+    "resultado": 11,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Em caso de falha, você é transformado em uma libélula gigante por 1 minuto.",
+    "moderado": "Plantas crescem ao seu redor, deixando você imobilizado por 1 minuto.",
+    "incomodo": "Você conjura Imagem Espelhada em si mesmo. Ela dura 1 minuto e não exige concentração."
+  },
+  {
+    "resultado": 12,
+    "extremo": "Até três criaturas escolhidas a até 9 metros sofrem 4d10 de dano elétrico.",
+    "moderado": "Uma criatura aleatória a até 9 metros ganha velocidade de voo igual ao deslocamento por 1 minuto.",
+    "incomodo": "Você é cercado por uma música etérea e suave durante 1 minuto."
+  },
+  {
+    "resultado": 13,
+    "extremo": "Você ganha imediatamente 20 pontos de vida temporários.",
+    "moderado": "Você pode imediatamente realizar 1 ação adicional.",
+    "incomodo": "Você recupera todos os pontos de feitiçaria gastos."
+  },
+  {
+    "resultado": 14,
+    "extremo": "Você se teleporta até 18 metros para um espaço desocupado que possa ver.",
+    "moderado": "Se cair no próximo dia, recebe automaticamente os benefícios de Queda Suave.",
+    "incomodo": "Seu cabelo dobra de comprimento em 1 minuto."
+  },
+  {
+    "resultado": 15,
+    "extremo": "Você fica no centro de uma magia Silêncio por 1 minuto.",
+    "moderado": "Recupera 1 espaço de magia gasto à sua escolha.",
+    "incomodo": "Seu cabelo cai, mas cresce novamente em 1 dia."
+  },
+  {
+    "resultado": 16,
+    "extremo": "Você fica vulnerável a demônios por 1 hora. Eles têm vantagem em ataques contra você.",
+    "moderado": "A próxima magia de dano lançada em até 1 minuto causa dano mínimo.",
+    "incomodo": "Você aprende um idioma adicional de sua escolha por 1 hora."
+  },
+  {
+    "resultado": 17,
+    "extremo": "Pelo próximo dia, sempre que fizer um teste de habilidade, role 1d6 e subtraia o resultado.",
+    "moderado": "Um escudo espectral concede +2 na CA e imunidade a Mísseis Mágicos por 1 minuto.",
+    "incomodo": "Você fica invisível por 1 minuto."
+  },
+  {
+    "resultado": 18,
+    "extremo": "Durante o próximo minuto, criaturas têm vantagem nos testes de resistência contra suas magias.",
+    "moderado": "Você e criaturas a até 9 metros ficam vulneráveis a dano perfurante por 1 minuto.",
+    "incomodo": "Seus olhos mudam de cor permanentemente. Remover Maldição encerra este efeito."
+  },
+  {
+    "resultado": 19,
+    "extremo": "A próxima magia de alvo único lançada em até 1 minuto afeta um alvo adicional.",
+    "moderado": "Você ganha resistência a dano contundente, perfurante e cortante não mágico por 1 minuto.",
+    "incomodo": "Pequenos pássaros o cercam por 1 minuto. Você falha automaticamente em testes de Furtividade."
+  },
+  {
+    "resultado": 20,
+    "extremo": "Um demônio com ND igual ao seu nível aparece próximo a você. Faça um teste de Carisma para determinar se ele será submisso ou hostil. Caso não seja derrotado ou banido, desaparece após 1 dia.",
+    "moderado": "Você fica protegido contra Elementais por 1 hora.",
+    "incomodo": "Você sente uma vontade irresistível de se aliviar. Enquanto não o fizer, sofre as penalidades descritas."
+  },
+  {
+    "resultado": 21,
+    "extremo": "No próximo minuto, toda criatura a até 18 metros de você que ouvir você falar ouve apenas insultos, como se você estivesse lançando provocação cruel no 1º nível.",
+    "moderado": "No próximo minuto, uma criatura de sua escolha tem -2 na CA, testes de ataque e rolagens de dano.",
+    "incomodo": "Mosquitos zumbem ao redor da sua cabeça por 1 minuto, distraindo-o. Você deve fazer um teste de resistência de Constituição contra sua própria CD de resistência de magia para lançar qualquer magia."
+  },
+  {
+    "resultado": 22,
+    "extremo": "Pelo próximo dia, você tem vantagem nas próximas 2d6 rolagens que fizer onde já não tem vantagem.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano contundente por 1 minuto.",
+    "incomodo": "Você é cercado por um odor ofensivo e fraco por 1 minuto. Você tem desvantagem em todos os testes de Carisma."
+  },
+  {
+    "resultado": 23,
+    "extremo": "Você está protegido contra Aberrações por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que passem em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você emana luz em um raio de 9 metros por 1 minuto. Qualquer criatura a até 1,5 metro de você que possa ver fica cega até o final de seu próximo turno.",
+    "incomodo": "No próximo minuto, todas as magias com tempo de conjuração de 1 ação ou 1 ação bônus exigem 2 ações consecutivas para serem conjuradas."
+  },
+  {
+    "resultado": 24,
+    "extremo": "Por 1 minuto, uma duplicata sua aparece no espaço aberto mais próximo, pode realizar ações independentemente e age na mesma Iniciativa que você. Porém, qualquer dano que sofra, bem como espaços de magia ou pontos de feitiçaria que use, também se aplicam a você.",
+    "moderado": "Pela próxima hora, você ganha vantagem em testes de Carisma ao lidar com qualquer criatura vestindo preto, mas desvantagem se estiver vestindo branco. Se estiver vestindo ambas, isso não se aplica.",
+    "incomodo": "Você tem uma vontade irresistível de coçar uma coceira no meio de suas costas, fora de alcance, por 1 minuto. Se não coçar usando um coçador ou dispositivo similar, deve passar em um teste de resistência de Constituição contra sua CD de resistência de magia para lançar uma magia."
+  },
+  {
+    "resultado": 25,
+    "extremo": "Um estrondo alto emana de você. Todas as criaturas a até 4,5 metros sofrem 2d8 de dano de trovão e devem fazer um teste de resistência de Constituição contra sua CD de resistência de magia ou ficar surdas por 1 minuto.",
+    "moderado": "Você está protegido contra Plantas por 1 hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Você tem uma visão momentânea de sua própria morte. Se falhar em uma rolagem de resistência de Sabedoria contra sua CD de magia, fica apavorado por 1 minuto."
+  },
+  {
+    "resultado": 26,
+    "extremo": "Todas as criaturas a até 18 metros de você recuperam 2d8 pontos de vida.",
+    "moderado": "Sua Sabedoria aumenta em 2 por 1 dia.",
+    "incomodo": "Sua Empatia aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 27,
+    "extremo": "Você se transforma em uma estátua de mármore de si mesmo por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "Na próxima hora, você tem vantagem na próxima rolagem que fizer onde já não tem vantagem.",
+    "incomodo": "No próximo minuto, todas as plantas a até 6 metros de você crescem como se afetadas pela magia crescimento vegetal quando lançada como ação."
+  },
+  {
+    "resultado": 28,
+    "extremo": "Você fica imune a doenças por 1 semana.",
+    "moderado": "Você ganha +2 na CA por 1 minuto.",
+    "incomodo": "Seus olhos brilham vermelhos por 1 minuto."
+  },
+  {
+    "resultado": 29,
+    "extremo": "Você imediatamente cai a 0 pontos de vida.",
+    "moderado": "No próximo minuto, você está no Étero Marginal perto do local onde estava.",
+    "incomodo": "Seu HP aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 30,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em um corvo por 1 minuto, como pela magia polimorfia.",
+    "moderado": "No próximo minuto, você ganha resistência a dano de trovão e força.",
+    "incomodo": "Você adiciona seu bônus de proficiência a todos os testes de Carisma pela próxima hora, se já não o adicionar."
+  },
+  {
+    "resultado": 31,
+    "extremo": "Você está protegido contra Bestas por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que passem em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Um diabo menor aparece a até 9 metros de você. Faça um teste de resistência de Carisma contra sua CD de resistência de magia. Se for bem-sucedido, o diabo menor é subserviente; caso contrário, é hostil. O diabo menor, se não for banido ou derrotado, desaparece após 1 dia.",
+    "incomodo": "Seus componentes de magia parecem ter sido reorganizados. Durante a próxima hora, você deve fazer um teste de Inteligência contra sua CD de resistência de magia para lançar qualquer magia que exija um componente material."
+  },
+  {
+    "resultado": 32,
+    "extremo": "Você se transforma em um bicho de pelúcia parecido com você por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "No próximo minuto, você ganha resistência a dano de fogo e frio.",
+    "incomodo": "No próximo minuto, você tem vantagem na próxima rolagem que fizer onde já não tem vantagem."
+  },
+  {
+    "resultado": 33,
+    "extremo": "Você está no centro de uma parede de fogo circular com raio de 4,5 metros. Qualquer criatura em qualquer espaço coberto por este fogo deve fazer um teste de resistência de Destreza contra sua CD de magia ou sofrer 5d8 de dano de fogo. A parede de fogo permanece por 1 minuto.",
+    "moderado": "Pela próxima hora, você ganha vantagem em testes de Carisma ao lidar com qualquer criatura vestindo vermelho, mas desvantagem se estiver vestindo verde. Se estiver vestindo ambas, isso não se aplica.",
+    "incomodo": "Toda criatura a até 4,5 metros de você sofre 1 de dano necrótico. Se estiver ferido, você recupera pontos de vida até o valor do dano causado. Se não estiver ferido, ganha esse valor em pontos de vida temporários."
+  },
+  {
+    "resultado": 34,
+    "extremo": "Escolha 1 efeito permanente ou desencadeado que aconteceu com você ou outra pessoa que você recebeu desta tabela e remova-o, mesmo que fosse benéfico.",
+    "moderado": "Você ganha o serviço de um olho arcano por 1 minuto que não requer concentração.",
+    "incomodo": "Uma boca mágica aparece em uma parede ou superfície plana próxima. Quando você fala, sua voz sai da boca mágica. Isso dura 1 minuto."
+  },
+  {
+    "resultado": 35,
+    "extremo": "Você fica vulnerável a Bestas por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Você perde a capacidade de cheirar por 1 dia.",
+    "incomodo": "Você pode ouvir excepcionalmente bem por 1 minuto, ganhando vantagem em todos os testes de Percepção relacionados a som."
+  },
+  {
+    "resultado": 36,
+    "extremo": "Você perde permanentemente a capacidade de cheirar. Este sentido pode ser restaurado com uma magia que remove maldições, como remover maldição.",
+    "moderado": "Você ganha -2 na CA por 1 minuto.",
+    "incomodo": "Você perde a capacidade de cheirar por 1 hora."
+  },
+  {
+    "resultado": 37,
+    "extremo": "Você fica vulnerável a Celestiais por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano necrótico por 1 minuto.",
+    "incomodo": "No próximo dia, cada vez que você disser uma palavra com o som \"s\", soa como uma cobra sibilante."
+  },
+  {
+    "resultado": 38,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em um gato por 1 minuto, como pela magia polimorfia.",
+    "moderado": "Você fica invisível e silencioso por 1 minuto.",
+    "incomodo": "Uma brisa suave sopra para fora de você. Todas as criaturas a até 12 metros de você podem senti-la, mas não faz mais nada."
+  },
+  {
+    "resultado": 39,
+    "extremo": "Você fica vulnerável a Plantas por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Sua Destreza aumenta em 2 por 1 dia.",
+    "incomodo": "Sua Destreza aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 40,
+    "extremo": "Você ganha o serviço de um olho arcano por 1 hora que não requer concentração.",
+    "moderado": "Você pode detectar os pensamentos de 1 criatura que possa ver a até 9 metros de você por 1 minuto.",
+    "incomodo": "Você sofre imediatamente 1d10 de dano radiante."
+  },
+  {
+    "resultado": 41,
+    "extremo": "Você está protegido contra Celestiais por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "No próximo minuto, todos os ataques corpo a corpo que você fizer com uma arma não mágica ganham +1 para acertar e dano, e são considerados mágicos para propósitos de superar resistências.",
+    "incomodo": "Um item não mágico escolhido aleatoriamente em sua posse que pesa 450 gramas ou menos desaparece e se foi para sempre."
+  },
+  {
+    "resultado": 42,
+    "extremo": "Você se transforma em uma planta envasada de tamanho médio por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "Sua Força diminui em 2 por 1 hora.",
+    "incomodo": "Sua Sabedoria aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 43,
+    "extremo": "3d6 gemas aleatórias aparecem perto de você, valendo 50 PO cada.",
+    "moderado": "Você ganha liberdade de movimento por 1 dia.",
+    "incomodo": "Você ganha imediatamente 10 pontos de vida temporários."
+  },
+  {
+    "resultado": 44,
+    "extremo": "Todos os aliados a até 6 metros de você ganham +2 em testes de ataque e rolagens de dano em qualquer ataque corpo a corpo que fizerem no próximo minuto.",
+    "moderado": "Sua Agilidade diminui em 2 por 1 hora.",
+    "incomodo": "3d6 peças de ouro/vingotes aparecem perto de você."
+  },
+  {
+    "resultado": 45,
+    "extremo": "Por 2d6 dias, você brilha amarelo vivo. Você tem desvantagem em testes de Furtividade e qualquer um tentando percebê-lo tem vantagem em seu teste de Percepção.",
+    "moderado": "Você é afetado por fogo-fátuo por 1 minuto. Você falha automaticamente no teste de resistência.",
+    "incomodo": "Você recupera 5 pontos de vida por rodada por 1 minuto."
+  },
+  {
+    "resultado": 46,
+    "extremo": "Você está no centro de uma parede de força circular com raio de 4,5 metros. Qualquer criatura em qualquer espaço coberto por esta parede deve fazer um teste de resistência de Destreza contra sua CD de magia ou sofrer 5d8 de dano de força. A parede permanece por 1 minuto.",
+    "moderado": "Você está protegido contra Bestas por 1 hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Um diabo menor aparece perto de você. Faça um teste de resistência de Carisma contra sua CD de resistência de magia. Se for bem-sucedido, o diabo menor é subserviente; caso contrário, é hostil. O diabo menor, se não for banido ou derrotado, desaparece após 1 hora."
+  },
+  {
+    "resultado": 47,
+    "extremo": "Todas as criaturas a até 6 metros de você são derrubadas.",
+    "moderado": "10d6 peças de ouro/vingotes aparecem perto de você.",
+    "incomodo": "Sua velocidade aumenta em 3 metros por 1 minuto."
+  },
+  {
+    "resultado": 48,
+    "extremo": "Você fica vulnerável a Aberrações por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Por 2d6 horas, você tem um brilho rosa fraco. Qualquer um tentando percebê-lo tem vantagem em seu teste de Percepção.",
+    "incomodo": "Você ganha proficiência em todos os testes de Força pela próxima hora, se já não a tiver."
+  },
+  {
+    "resultado": 49,
+    "extremo": "Pelo próximo dia, você está no Étero Marginal perto do local onde estava.",
+    "moderado": "Você ganha a capacidade de respirar água por 1 dia.",
+    "incomodo": "Sua Inteligência aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 50,
+    "extremo": "Todos os aliados a até 6 metros de você ganham +2 em testes de ataque e rolagens de dano em qualquer ataque à distância que fizerem no próximo minuto.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano cortante por 1 minuto.",
+    "incomodo": "Um item não mágico escolhido aleatoriamente em sua posse que pesa 450 gramas ou menos é duplicado."
+  },
+  {
+    "resultado": 51,
+    "extremo": "Você está no centro de um campo antimagia de raio de 3 metros que anula toda magia igual ou inferior ao seu nível por 1 hora e não requer concentração.",
+    "moderado": "No próximo minuto, luz e escuridão se alternam rapidamente ao seu redor em um raio de 9 metros, criando um efeito estroboscópico. Criaturas baseadas em visão ganham -1 em testes de ataque contra você e testes de Percepção contra você, e você ganha +1 em testes de Furtividade.",
+    "incomodo": "Cogumelos brotam ao seu redor em um raio de 1,5 metro e desaparecem após 1 minuto. Se um for colhido e comido dentro deste tempo, a criatura deve fazer um teste de resistência de Constituição contra sua CD de resistência de magia. Em uma falha, sofre 5d6 de dano de veneno. Em um sucesso, ganha 5d6 pontos de vida temporários."
+  },
+  {
+    "resultado": 52,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em um lobo por 1 minuto, como pela magia polimorfia.",
+    "moderado": "Todas as criaturas a até 6 metros de você devem fazer um teste de resistência de Força contra sua CD de resistência de magia ou serem derrubadas.",
+    "incomodo": "Você pode cheirar excepcionalmente bem por 1 minuto, ganhando visão cega com raio de 3 metros e vantagem em todos os testes de Percepção relacionados a odor."
+  },
+  {
+    "resultado": 53,
+    "extremo": "Você está protegido contra Elementais por um dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você está protegido contra Mortos-vivos por uma hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Seus pés afundam no chão, tornando-o completamente imóvel por um minuto. Isso não tem efeito se você não estiver no chão quando a magia foi lançada."
+  },
+  {
+    "resultado": 54,
+    "extremo": "Todo o seu cabelo cai permanentemente. Apenas uma magia como remover maldição pode encerrar este efeito.",
+    "moderado": "No próximo minuto, você pode atravessar qualquer parede sólida não mágica com espessura de 15 centímetros ou menos.",
+    "incomodo": "Uma gema aleatória no valor de 100 PO aparece perto de você."
+  },
+  {
+    "resultado": 55,
+    "extremo": "Você ganha a capacidade de falar um novo idioma de sua escolha. Porém, você perde a capacidade de falar um idioma que já conhece.",
+    "moderado": "Você está protegido contra Demônios por uma hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "No próximo minuto, você tem visão dupla. Isso dá desvantagem em ataques à distância (incluindo ataques de magia) e testes de Percepção envolvendo visão."
+  },
+  {
+    "resultado": 56,
+    "extremo": "Um padrão hipnótico cúbico de 9 metros aparece com você no centro. Todas as criaturas no padrão devem ser bem-sucedidas em um teste de resistência de Sabedoria ou cairão dormindo por 1 minuto ou até sofrerem dano.",
+    "moderado": "Você ganha permanentemente um espaço de magia de 1º nível, mas esquece um truque que já conhece. Uma magia como remover maldição pode encerrar este efeito.",
+    "incomodo": "Você é cercado por um odor fraco e agradável. Você ganha vantagem em todos os testes de Carisma que fizer no próximo minuto."
+  },
+  {
+    "resultado": 57,
+    "extremo": "Você esquece permanentemente um truque. Uma magia como remover maldição pode restaurar sua memória.",
+    "moderado": "Você ganha imediatamente 15 pontos de vida temporários.",
+    "incomodo": "Você perde proficiência em todos os testes de perícia por 1 minuto."
+  },
+  {
+    "resultado": 58,
+    "extremo": "Você sofre imediatamente 2d10 de dano psíquico.",
+    "moderado": "Todo o ouro que você está carregando agora é prata.",
+    "incomodo": "Você ganha liberdade de movimento por 1 minuto."
+  },
+  {
+    "resultado": 59,
+    "extremo": "Você fica vulnerável a Mortos-vivos por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "No próximo minuto, você ganha resistência a dano necrótico e radiante.",
+    "incomodo": "Você ganha visão no escuro com raio de 18 metros por 1 minuto. Se já tiver visão no escuro, você a perde por 1 minuto."
+  },
+  {
+    "resultado": 60,
+    "extremo": "Você se transforma em uma estátua de ferro de si mesmo por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "Você está no centro de uma nuvem de neblina que dura 1 minuto.",
+    "incomodo": "Aproximadamente 378 litros de água aparecem sobre sua cabeça e sobre aqueles a até 3 metros de você, distribuídos uniformemente sobre todos no raio."
+  },
+  {
+    "resultado": 61,
+    "extremo": "Você ganha um espaço de magia adicional do seu nível mais alto por 1 semana.",
+    "moderado": "Sua Carisma aumenta em 2 por 1 dia.",
+    "incomodo": "Você ganha +1 na CA por um minuto."
+  },
+  {
+    "resultado": 62,
+    "extremo": "Se você morrer no próximo minuto, você volta à vida como pela magia reencarnação.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de raio por 1 minuto.",
+    "incomodo": "Você sofre uma cãibra horrível em ambas as pernas, reduzindo sua velocidade em 3 metros por 1 hora."
+  },
+  {
+    "resultado": 63,
+    "extremo": "Você ganha permanentemente um espaço de magia de um nível abaixo do seu espaço de magia de nível mais alto, mas perde um espaço de magia de 1º nível. Uma magia como remover maldição pode encerrar este efeito.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de força por 1 minuto.",
+    "incomodo": "A próxima magia que você lançar na próxima hora usa um espaço de magia de um nível inferior ao que normalmente requer. Se a magia for de 1º nível, você ainda deve gastar um espaço de magia para lançá-la."
+  },
+  {
+    "resultado": 64,
+    "extremo": "Todas as criaturas que podem percebê-lo devem fazer um teste de resistência de Sabedoria contra sua CD de resistência de magia ou ficar apavoradas por você.",
+    "moderado": "No próximo minuto, qualquer criatura que você tocar sofre 2d6 de dano de raio.",
+    "incomodo": "Pela próxima hora, você não consegue ler, pois as letras parecem todas embaralhadas."
+  },
+  {
+    "resultado": 65,
+    "extremo": "Você fica vulnerável a Elementais por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Você ganha visão cega com raio de 18 metros por 1 minuto.",
+    "incomodo": "No próximo dia, tudo o que você diz deve rimar. Se não rimar, você sofre 1d6 de dano psíquico."
+  },
+  {
+    "resultado": 66,
+    "extremo": "Você está protegido contra Fadas por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você é cercado por um odor horrível e nauseabundo por 1 minuto. Qualquer um a até 3 metros de você deve fazer um teste de resistência de Constituição ou ficar atordoado.",
+    "incomodo": "Durante a próxima hora, você pode rolar novamente qualquer teste de resistência, teste de ataque ou teste de perícia. Se o fizer, deve aceitar o resultado da nova rolagem."
+  },
+  {
+    "resultado": 67,
+    "extremo": "Você ganha o serviço de uma espada arcana que não requer concentração até seu próximo descanso curto ou longo.",
+    "moderado": "Sua Carisma diminui em 2 por 1 hora.",
+    "incomodo": "Você cresce 1d6 x 2,5 centímetros. Você retorna gradualmente à sua altura original ao longo de 1 dia."
+  },
+  {
+    "resultado": 68,
+    "extremo": "Você ganha permanentemente um truque. Uma magia como remover maldição pode encerrar este efeito.",
+    "moderado": "Você ganha o serviço de um corcel fantasma por 1 dia.",
+    "incomodo": "Você sofre imediatamente 2d4 de dano psíquico."
+  },
+  {
+    "resultado": 69,
+    "extremo": "Todos os aliados a até 6 metros de você ganham -2 em testes de ataque e rolagens de dano para qualquer ataque corpo a corpo que fizerem no próximo minuto.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de ácido por 1 minuto.",
+    "incomodo": "Pela próxima hora, sempre que fizer um teste de habilidade, role 1d4 e subtraia o resultado."
+  },
+  {
+    "resultado": 70,
+    "extremo": "Todos os aliados a até 6 metros de você curam até 3d8 pontos de vida.",
+    "moderado": "Sua Sabedoria diminui em 2 por 1 hora.",
+    "incomodo": "Você ganha a capacidade de falar com animais por uma hora."
+  },
+  {
+    "resultado": 71,
+    "extremo": "Você perde a capacidade de ver por 1 dia. Durante este tempo, você tem a condição cego.",
+    "moderado": "Sua velocidade aumenta em 3 metros por 1 dia.",
+    "incomodo": "Você ganha -1 na CA por 1 minuto."
+  },
+  {
+    "resultado": 72,
+    "extremo": "Você ganha o serviço de um corcel fantasma por 1 semana.",
+    "moderado": "Você ganha a capacidade de andar sobre a água por 1 dia.",
+    "incomodo": "Você ganha o uso de um servo invisível por 1 hora."
+  },
+  {
+    "resultado": 73,
+    "extremo": "Faça um teste de resistência de Constituição contra sua CD de resistência de magia. Se falhar, você fica atordoado por 1 minuto.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano psíquico por 1 minuto.",
+    "incomodo": "A próxima magia que você lançar na hora usa um espaço de um nível superior ao que normalmente requer."
+  },
+  {
+    "resultado": 74,
+    "extremo": "Você se transforma em uma estátua de pedra de si mesmo por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "Uma criatura de sua escolha ganha +2 em todos os testes de ataque, rolagens de dano e CA por 1 minuto.",
+    "incomodo": "Uma piada ruim vem à mente e até que você a conte (o que leva uma ação inteira), você sofre uma penalidade de -1 em Sabedoria."
+  },
+  {
+    "resultado": 75,
+    "extremo": "Todas as criaturas a até 6 metros de você, incluindo você, devem fazer um teste de resistência de Destreza contra sua CD de resistência de magia ou ser afetadas por fogo-fátuo.",
+    "moderado": "Você perde proficiência em uma perícia, ferramenta ou tipo de arma escolhida aleatoriamente por 2d6 dias.",
+    "incomodo": "Você ouve um zumbido em seus ouvidos por 1 minuto. Durante este tempo, lançar uma magia que requer um componente verbal exige um teste de Constituição contra sua CD de resistência de magia."
+  },
+  {
+    "resultado": 76,
+    "extremo": "Aumente permanentemente uma pontuação de habilidade de sua escolha em 1 ponto. Diminua permanentemente uma pontuação de habilidade diferente de sua escolha em 1 ponto. Uma magia como remover maldição pode encerrar este efeito.",
+    "moderado": "Toda comida e bebida a até 9 metros de você se torna pútrida, estragada ou podre. Consumir esta comida causa 2d6 de dano de veneno e a condição envenenado por 1 hora.",
+    "incomodo": "Você perde 1d6x2,5 quilos. Você retorna gradualmente ao seu peso original ao longo de 1 dia."
+  },
+  {
+    "resultado": 77,
+    "extremo": "Você ganha proficiência em uma ferramenta ou tipo de arma que já não tem por 1 dia.",
+    "moderado": "Toda prata que você está carregando agora é cobre.",
+    "incomodo": "Suas roupas ficam sujas e imundas. Até que possa trocar e/ou limpar suas roupas, sua Carisma é reduzida em 1."
+  },
+  {
+    "resultado": 78,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em uma aranha gigante por 1 minuto, como pela magia polimorfia.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de fogo por 1 minuto.",
+    "incomodo": "Você ganha proficiência em testes de Sabedoria pela próxima hora, se já não a tiver."
+  },
+  {
+    "resultado": 79,
+    "extremo": "Ganhe os efeitos de simpatia da magia antipatia/simpatia por 3d6 dias.",
+    "moderado": "Você perde proficiência em todas as rolagens de perícia por 1d4 horas.",
+    "incomodo": "Você encolhe 1d6 x 2,5 centímetros. Você retorna gradualmente à sua altura original ao longo de 1 dia."
+  },
+  {
+    "resultado": 80,
+    "extremo": "Você está protegido contra Demônios por um dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você está protegido contra Fadas por uma hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Sua pele escurece permanentemente como se você tivesse um bronzeado, ou se você já for moreno, sua pele fica um tom mais claro. Uma magia como remover maldição pode encerrar este efeito."
+  },
+  {
+    "resultado": 81,
+    "extremo": "Todos os aliados a até 6 metros de você ganham -2 em testes de ataque e rolagens de dano para qualquer ataque à distância que fizerem no próximo minuto.",
+    "moderado": "Pela próxima hora, sempre que fizer um teste de habilidade, role 1d6 e subtraia o resultado.",
+    "incomodo": "Por 1 minuto, uma criatura de sua escolha a até 9 metros de você ganha -1 em testes de ataque, rolagens de dano e CA."
+  },
+  {
+    "resultado": 82,
+    "extremo": "Por um minuto, qualquer magia com tempo de conjuração de 1 ação pode ser lançada como ação bônus.",
+    "moderado": "No próximo minuto, você ganha resistência a dano de veneno e psíquico.",
+    "incomodo": "Pela próxima hora, sempre que fizer um teste de habilidade, role 1d4 e adicione o resultado."
+  },
+  {
+    "resultado": 83,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em um coelho gigante por 1 minuto, como pela magia polimorfia.",
+    "moderado": "Você está se sentindo sortudo. Pela próxima hora, sempre que fizer um teste de habilidade, role 1d6 e adicione o resultado.",
+    "incomodo": "Se você lançar uma magia com teste de resistência no próximo minuto, o alvo tem desvantagem em seu teste de resistência."
+  },
+  {
+    "resultado": 84,
+    "extremo": "Na próxima vez que lançar uma magia, não role nesta tabela.",
+    "moderado": "Você sofre imediatamente 2d6 de dano psíquico.",
+    "incomodo": "Sua Força aumenta em 2 por 1 minuto."
+  },
+  {
+    "resultado": 85,
+    "extremo": "No próximo dia, você ganha proficiência em todas as perícias em que já não é proficiente.",
+    "moderado": "Você ganha proficiência em uma perícia de sua escolha que já não tem por uma hora.",
+    "incomodo": "Uma criatura de sua escolha ganha +1 em testes de ataque, rolagens de dano e CA por 1 minuto."
+  },
+  {
+    "resultado": 86,
+    "extremo": "Na próxima vez que lançar uma magia, role duas vezes nesta tabela. Ambos os efeitos serão aplicados.",
+    "moderado": "Sua Constituição aumenta em 2 por 1 dia.",
+    "incomodo": "Você cura imediatamente 2d10 pontos de vida."
+  },
+  {
+    "resultado": 87,
+    "extremo": "Você fica vulnerável a Fadas por 1 hora. Tais criaturas ganham vantagem ao atacá-lo.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de trovão por 1 minuto.",
+    "incomodo": "Você ganha proficiência em todos os testes de Inteligência pela próxima hora, se já não a tiver."
+  },
+  {
+    "resultado": 88,
+    "extremo": "Você se transforma em um baú de madeira vazio por 1 minuto, durante o qual é considerado petrificado.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de frio por 1 minuto.",
+    "incomodo": "O poder de sua magia é forte! Pela próxima hora, qualquer magia que você lançar não requer um componente verbal."
+  },
+  {
+    "resultado": 89,
+    "extremo": "Ganhe os efeitos de antipatia da magia antipatia/simpatia por 3d6 dias.",
+    "moderado": "Você ganha a capacidade de falar um idioma de sua escolha por 1 dia.",
+    "incomodo": "Você ganha 1d6x4,5 quilos. Você retorna gradualmente ao seu peso original ao longo de 1 dia."
+  },
+  {
+    "resultado": 90,
+    "extremo": "Todas as criaturas a até 9 metros de você devem fazer um teste de resistência de Sabedoria. Qualquer criatura imune a sono mágico passa automaticamente no teste. Aquelas que falharem adormecem por 1d6 minutos.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano radiante por 1 minuto.",
+    "incomodo": "Você ganha proficiência em todos os testes de Destreza pela próxima hora, se já não a tiver."
+  },
+  {
+    "resultado": 91,
+    "extremo": "Você está protegido contra Plantas por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você está protegido contra Celestiais por 1 hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Suas unhas das mãos e dos pés crescem a um comprimento desconfortável. Até que as apare, sua Destreza é reduzida em 1 e sua velocidade é reduzida em 1,5 metro, mesmo que não esteja usando sapatos."
+  },
+  {
+    "resultado": 92,
+    "extremo": "Todos os seus aliados a até 6 metros de você ganham +2 na CA por 1 minuto.",
+    "moderado": "No próximo minuto, você não consegue lançar nenhuma magia que cause dano de qualquer tipo.",
+    "incomodo": "Você ganha os efeitos da magia embaçamento por 1 minuto, que não requer concentração para ser mantida."
+  },
+  {
+    "resultado": 93,
+    "extremo": "Na próxima vez que você cair abaixo de 0 pontos de vida dentro do próximo mês, você falha automaticamente em seu primeiro teste de resistência contra morte.",
+    "moderado": "Você ganha andar na parede por 1 minuto, e não requer concentração para ser mantido.",
+    "incomodo": "Pela próxima hora, você aparece para os outros como sendo do sexo oposto."
+  },
+  {
+    "resultado": 94,
+    "extremo": "Você ganha dois espaços de magia no seu segundo nível mais alto por 1 semana.",
+    "moderado": "Você perde imediatamente todos os pontos de feitiçaria não gastos e não pode recuperá-los até que termine um descanso longo.",
+    "incomodo": "Você ganha o serviço de uma arma espiritual de 2º nível por 1 minuto."
+  },
+  {
+    "resultado": 95,
+    "extremo": "Pelo próximo dia, sempre que fizer um teste de habilidade, role 1d6 e adicione o resultado.",
+    "moderado": "Você e todas as criaturas a até 9 metros de você ganham vulnerabilidade a dano de veneno por 1 minuto.",
+    "incomodo": "O poder de sua magia é forte! Pela próxima hora, qualquer magia que você lançar não requer um componente somático."
+  },
+  {
+    "resultado": 96,
+    "extremo": "Faça um teste de resistência de Sabedoria contra sua própria CD de resistência de magia. Se falhar, você é transformado em uma ovelha por 1 minuto, como pela magia polimorfia.",
+    "moderado": "Você ganha a capacidade de falar com animais por 1 dia.",
+    "incomodo": "Você ganha proficiência em todos os testes de Constituição pela próxima hora, se já não a tiver."
+  },
+  {
+    "resultado": 97,
+    "extremo": "Todos os aliados a até 9 metros de você ganham -2 na CA por 1 minuto.",
+    "moderado": "Toda comida e bebida a até 9 metros de você é purificada.",
+    "incomodo": "Todo objeto inanimado que não está sendo vestido ou carregado a até 12 metros de você fica envolto em sombras por 1 minuto. Objetos envoltos em sombras são considerados fortemente obscurecidos."
+  },
+  {
+    "resultado": 98,
+    "extremo": "Você está protegido contra Mortos-vivos por 1 dia. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "moderado": "Você está protegido contra Aberrações por 1 hora. Tais criaturas não podem atacá-lo ou machucá-lo a menos que sejam bem-sucedidas em um teste de resistência de Carisma contra sua CD de resistência de magia.",
+    "incomodo": "Seus dedos ficam doloridos por 1 hora. Durante este tempo, você deve ser bem-sucedido em um teste de resistência de Destreza contra sua CD de resistência de magia para lançar uma magia com um componente somático."
+  },
+  {
+    "resultado": 99,
+    "extremo": "Você avança no tempo exatamente 1 minuto, por 1 minuto. Da perspectiva de todos os outros, você deixa de existir durante esse tempo.",
+    "moderado": "Todas as suas roupas e equipamentos teleportam para o espaço aberto mais próximo a pelo menos 4,5 metros de você.",
+    "incomodo": "Você sente-se extremamente enjoado. Faça um teste de resistência de Constituição contra sua CD de resistência de magia. Se falhar, deve gastar sua próxima ação vomitando."
+  },
+  {
+    "resultado": 100,
+    "extremo": "Todas as magias que você lançar no próximo minuto falham automaticamente.",
+    "moderado": "Sua Constituição diminui em 2 por 1 hora.",
+    "incomodo": "Você perde imediatamente 1 ponto de feitiçaria não gasto."
+  }
+]
+

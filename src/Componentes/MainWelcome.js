@@ -14,4 +14,5 @@ export default function MainWelcome()
 
 function ShowMenu() {
     document.getElementById("MainWelcome").style.display = "none";
+    document.getElementById("MainMenu").style.display = "flex";
 }
