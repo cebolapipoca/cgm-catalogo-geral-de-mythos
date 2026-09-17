@@ -1,0 +1,53 @@
+
+.TalentPage {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+ .TalentPage_HeaderInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+        
+    & label {
+        
+        color: white;
+        font-size: 20px;
+    }
+    }
+
+.TalentPage_HeaderInfo2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+
+    & .LabelInput_Talent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 30%;
+
+        & label {
+            color: white;
+        }
+
+        & select {
+            padding: 5px;
+            text-align: center;
+            background-color: transparent;
+            border: 1px solid cyan;
+            color: white;
+        }
+
+        
+    }
+}
+
+.TalentPage_List {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+}

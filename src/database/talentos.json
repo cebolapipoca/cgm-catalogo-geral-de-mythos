@@ -1,0 +1,573 @@
+[
+  {
+    "nome": "Eu Conheço um Cara",
+    "requisitos": [],
+    "descricao": "Uma vez por aventura, em uma situação de emergência você pode mencionar \"que conhece um cara\" que pode ajudar os personagens no momento de necessidade. Esse personagem seria adicionado à campanha como um aspecto permanente. Não é garantido que será barato, fácil de concluir ou intuitivo — mas, o cara realmente existe, e ele cumprirá com seu propósito por um preço."
+  },
+  {
+    "nome": "Elementarista",
+    "requisitos": [],
+    "descricao": "Escolha um tipo de dano específico. (fogo, trovão, elétrico, frio ou venenoso) Toda vez que causar dano com aquele elemento, aumente seu dado em +1."
+  },
+  {
+    "nome": "Precavido",
+    "requisitos": [
+      "Médico",
+      "Enfermeiro",
+      "Arquétipo Curandeiro"
+    ],
+    "descricao": "Toda vez que você curar qualquer aliado, você se cura em metade do valor."
+  },
+  {
+    "nome": "Fúria",
+    "requisitos": [
+      "Guarda",
+      "Espadachim",
+      "Caçador de Recompensas",
+      "Arquétipos Defensor",
+      "Combatente"
+    ],
+    "descricao": "Com uma ação bônus, você entra em Fúria por 10 minutos. Pela duração, todos os seus ataques armados e desarmados causam 2d8 de Energia adicionais, você ganha +2 na sua CA, tem vantagem em testes de Força e você ganha a habilidade \"Ataque Imprudente\". Sua Fúria termina se estiver incapacitado, inconsciente ou não tiver atacado ninguém por 1 turno. Você pode estender sua Fúria como uma ação bônus por turno caso precise. Enquanto em Fúria, você não é capaz de conjurar magias. Seu valor de uso de fúria é metade do seu nível + 1 por descanso longo. Ataque Imprudente Concede Vantagem em jogadas de ataque corpo a corpo até o início do seu próximo turno, mas jogadas de ataque contra você também têm Vantagem durante esse tempo."
+  },
+  {
+    "nome": "Necromante",
+    "requisitos": [
+      "6 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Quando uma criatura cair morta, você pode reerguê-la com uma ação principal. A criatura permanecerá ao seu lado até que morra, até que um aliado seu a ataque ou até que seja dispersa. Você pode manter um número de criaturas com você igual ao seu valor de Sabedoria. A criatura deve ser um nível de desafio igual ou menor que do seu nível de Yog-Sothotheria. Se a criatura for do mesmo nivel que o seu, passe num teste de Empatia DT 10 + metade do seu nível de Yog-Sothotheria No 9 NIVEL: Você pode reerguer criaturas com um nível de desafio igual ou menor que o dobro do seu nível de Yog-Sothotheria."
+  },
+  {
+    "nome": "Armazenar Almas",
+    "requisitos": [
+      "5 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Quando você matar uma criatura, no mesmo turno, você pode utilizar uma ação bônus pra armazenar a alma da mesma em um recipiente escolhido por você. Você pode armazenar almas igual ao seu valor de Empatia. Consulte a tabela pros bônus de almas. Você pode liberar uma alma, se desejado, com uma ação livre. PRA CADA 1 ALMA LIBERADA NO ATAQUE: +1 dado adicional base no dano. PRA CADA 2 ALMAS ARMAZENADAS: +1 jogadas de ataque PRA CADA 3 ALMAS ARMAZENADAS: +1 CA PRA CADA 5 ALMAS ARMAZENADAS: margem de crítico diminui em 1."
+  },
+  {
+    "nome": "Cabeça Quente",
+    "requisitos": [],
+    "descricao": "Se você estiver com seus PV máximos, sua margem crítica diminui em 1, além de +1 no dado base de dano."
+  },
+  {
+    "nome": "Canhão de Vidro",
+    "requisitos": [
+      "5 Nível de Yog-Sothotheria",
+      "Mágico",
+      "Arquétipo Curandeiro",
+      "Conjurador"
+    ],
+    "descricao": "Seu dano mágico tem 60% de chance de dobrar, mas sua CA total é subtraída em 4. Role 1d100. Se o resultado for 60 ou menor, dobra."
+  },
+  {
+    "nome": "Pele de Aço",
+    "requisitos": [],
+    "descricao": "Você ganha resistência a um dano elemental de sua escolha. (fogo, trovão, elétrico, frio ou veneno)"
+  },
+  {
+    "nome": "Passo Leve",
+    "requisitos": [],
+    "descricao": "Você aumenta seu movimento em metade do seu movimento base."
+  },
+  {
+    "nome": "Grotesco",
+    "requisitos": [],
+    "descricao": "Adquirir esse talento te dá desvantagem em testes sociais e as pessoas vão te evitar sempre que possível, mas, inimigos tem menos interesse em você."
+  },
+  {
+    "nome": "Gladiador",
+    "requisitos": [
+      "Guarda",
+      "Policial",
+      "Arquétipo Defensor",
+      "Combatente"
+    ],
+    "descricao": "Enquanto estiver empunhando um escudo e um inimigo errar um ataque corpo a corpo contra você, você pode contra atacar. Você só pode fazer isso 1 vez por turno."
+  },
+  {
+    "nome": "Assassinar",
+    "requisitos": [],
+    "descricao": "Repetível em níveis pares Sempre que estiver escondido, você tem 1 dado adicional na sua arma. Se escolher esse talento novamente, seu dado aumenta em +1."
+  },
+  {
+    "nome": "Maior e Melhor",
+    "requisitos": [
+      "Nível 5 de Yog-Sothotheria"
+    ],
+    "descricao": "Você ganha 3 pontos pra distribuir em Perícias a sua escolha."
+  },
+  {
+    "nome": "Imbatível",
+    "requisitos": [
+      "Nível 4 de Yog-Sothotheria"
+    ],
+    "descricao": "Golpes fatais que antes te deixariam inconsciente, agora você pode recuperar 1 ponto de vida automaticamente. Esse efeito só torna a acontecer novamente no próximo amanhecer."
+  },
+  {
+    "nome": "Diplomata",
+    "requisitos": [],
+    "descricao": "Você se especializou em ajudar pessoas contra a influência do Adormecido. Você pode remover 1 ponto de estresse de uma criatura com um teste bem sucedido de Empatia DT 10 + seu valor de Empatia. Você só pode tornar a usar essa habilidade no próximo amanhecer."
+  },
+  {
+    "nome": "Habilidoso",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Você ganha 1 ponto adicional pra distribuir em qualquer atributo desejado."
+  },
+  {
+    "nome": "Recuperar Munição",
+    "requisitos": [
+      "Arquétipo Atirador"
+    ],
+    "descricao": "Ao gastar uma ou mais munições em um turno, você pode rolar um teste de Agilidade DT 15 pra recuperar uma das balas gastas."
+  },
+  {
+    "nome": "Defletir Ataques",
+    "requisitos": [
+      "Arquétipo Atirador",
+      "Defensor",
+      "Combatente"
+    ],
+    "descricao": "Ao ser atingido devido uma jogada de ataque e o dano dessa jogada incluir dano Contundente, Cortante ou Perfurante, você pode executar uma Reação para reduzir o dano total do ataque. A redução é igual a 1d10 + sua Resiliência. Ao reduzir o dano a 0, você pode redirecionar o ataque. Para isso, escolha uma criatura à vista a até 1,5 metro de você se o ataque for corpo a corpo, ou a até 18 metros se for à distância e sem Cobertura Total. Faça um ataque com arma contra a criatura, redirecionando todo o dano à ela."
+  },
+  {
+    "nome": "Toque Milagroso",
+    "requisitos": [
+      "Arquétipo Defensor",
+      "Curandeiro"
+    ],
+    "descricao": "Seu toque abençoado pode aliviar feridas. Você tem uma reserva de poder de cura que reabastece ao completar um Descanso Longo. Com essa reserva, você pode recuperar um número total de Pontos de Vida igual a 5 x seu valor de Empatia + seu Nível. Como uma Ação Bônus, você toca uma criatura (que pode ser você mesmo) e extrair poder dessa reserva de cura para restaurar um número de Pontos de Vida para essa criatura, até o valor máximo restante na reserva. Você também pode gastar 5 Pontos de Vida dessa reserva de poder de cura para remover a condição envenenado da criatura; esses pontos não restauram Pontos de Vida da criatura."
+  },
+  {
+    "nome": "Aproveitador",
+    "requisitos": [
+      "4 Nível de Yog-Sothotheria",
+      "Alquimista"
+    ],
+    "descricao": "Poções tem o dobro de efeito em você. Poções curativas curam o dobro, e poções que adicionam turnos adicionam +1 além do base. Venenos também te machucam o dobro."
+  },
+  {
+    "nome": "Visão Arcana",
+    "requisitos": [
+      "Arquétipo Curandeiro",
+      "Conjurador"
+    ],
+    "descricao": "O alcance de suas magias e pergaminhos dobra de valor. Magias de toque agora tem distância de 3m."
+  },
+  {
+    "nome": "Sádico",
+    "requisitos": [
+      "4 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Ao acertar um ataque crítico com arma, você pode fazer um ataque adicional como uma ação livre."
+  },
+  {
+    "nome": "Saúde Exemplar",
+    "requisitos": [
+      "4 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Repetível até no máximo de 12 HP. Esse talento te garante 1 de HP adicional."
+  },
+  {
+    "nome": "Curandeiro por Tabela",
+    "requisitos": [
+      "3 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Repetível Você aprende 2 magias da lista de clérigo e paladino à sua escolha (de circulo máximo igual ao seu nível de Yog-Sothotheria -1), uma delas sendo obrigatoriamente uma de cura. Caso não tenha espaços de magia, seus espaços de magia são equivalentes ao seu valor de Empatia dividido por 2."
+  },
+  {
+    "nome": "Conjurador por Tabela",
+    "requisitos": [
+      "3 Nível de Yog-Sothotheria"
+    ],
+    "descricao": "Repetível Você aprende 2 magias da lista de mago e feiticeiro à sua escolha (de circulo máximo igual ao seu nível de Yog-Sothotheria -1). Caso não tenha espaços de magia, seus espaços de magia são equivalentes ao seu valor de Empatia dividido por 2."
+  },
+  {
+    "nome": "Ágil",
+    "requisitos": [
+      "ao menos 4 em Agilidade"
+    ],
+    "descricao": "Você ganha vantagem nas jogadas de Iniciativa."
+  },
+  {
+    "nome": "Atacante Selvagem",
+    "requisitos": [],
+    "descricao": "Uma vez por turno, quando você atinge um alvo com uma arma, pode jogar os dados de dano da arma duas vezes e usar qualquer uma das jogadas contra o alvo."
+  },
+  {
+    "nome": "Músico",
+    "requisitos": [],
+    "descricao": "Ao completar um Descanso Curto ou Longo, você pode tocar uma música em um Instrumento Musical com o qual tem proficiência e conceder Inspiração Heroica a aliados que ouvem a música. O número de aliados que você pode afetar desse modo é igual ao seu Nivel de Yog-Sothotheria."
+  },
+  {
+    "nome": "Sortudo",
+    "requisitos": [
+      "Vagabundo",
+      "Nobre",
+      "Nível 5 de Yog-Sothotheria"
+    ],
+    "descricao": "Você adquire os seguintes benefícios. Pontos de Sorte. Você tem um número de Pontos de Sorte igual ao seu Nivel de Yog-Sothotheria pela metade e pode gastar os pontos nos benefícios abaixo. Você restaura seus Pontos de Sorte gastos quando completa um Descanso Longo. Vantagem. Quando você joga um d20 para um Teste de D20, pode gastar 1 Ponto de Sorte para ter Vantagem na jogada. Desvantagem. Quando uma criatura jogar um d20 para uma jogada de ataque contra você, você pode gastar 1 Ponto de Sorte para impor Desvantagem nessa jogada."
+  },
+  {
+    "nome": "Agressor",
+    "requisitos": [
+      "Arquétipo Defensor",
+      "Combatente",
+      "Força maior que 4",
+      "Agilidade maior que 4"
+    ],
+    "descricao": "Você adquire os seguintes benefícios. Corrida Aprimorada. Quando você executa a ação Disparada, seu Deslocamento aumenta em 3 metros para esta ação. Ataque em Investida. Se você se mover pelo menos 3 metros em linha reta em direção a um alvo imediatamente antes de atingi-lo com uma jogada de ataque corpo a corpo como parte da ação Atacar, escolha um dos seguintes efeitos: - obter um bônus de +1d8 na jogada de dano do ataque - empurrar o alvo até 3 metros se ele não for um tamanho maior que você. Você pode usar esse benefício apenas uma vez em cada um dos seus turnos."
+  },
+  {
+    "nome": "Contra-Encantamento",
+    "requisitos": [
+      "Arquétipo Curandeiro",
+      "Palhaço",
+      "Enfermeiro"
+    ],
+    "descricao": "Se você ou uma criatura a até 9 metros de você falhar em uma salvaguarda contra um efeito que aplica um nível de Estresse, você pode executar uma Reação para jogar novamente a salvaguarda, e a nova jogada tem Vantagem."
+  },
+  {
+    "nome": "Ponto Fraco",
+    "requisitos": [],
+    "descricao": "Se você utilizar um turno pra analisar um alvo, você pode descobrir uma das seguintes: fraquezas, imunidades, resistências ou imunidades a condição."
+  },
+  {
+    "nome": "Palavras de Interrupção",
+    "requisitos": [
+      "Nível 5 de Yog-Sothotheria"
+    ],
+    "descricao": "Você aprende a usar sua sagacidade para distrair, confundir e diminuir sobrenaturalmente a confiança e a competência dos outros. Quando uma criatura à sua vista a até 18 metros de você realizar uma jogada de dano, ou for bem-sucedida em um teste de atributo ou jogada de ataque, você pode executar uma Reação para gastar um Dado de Interrupção. O dado é 1d8, seu número de usos é igual ao seu valor de Empatia. Jogue o dado de Interrupção e subtraia o número jogado do resultado da criatura, reduzindo o dano ou transformando potencialmente o sucesso em fracasso."
+  },
+  {
+    "nome": "Imparável Mythos",
+    "requisitos": [],
+    "descricao": "(Adquire automaticamente ao atingir 6 Niveis de Estresse) Como uma Ação Bônus, você pode assumir uma presença aterrorizantemente mágica por 1 minuto ou até que tenha a condição Incapacitado. Por essa duração, sempre que qualquer criatura o atinge com uma jogada de ataque pela primeira vez em um turno, o atacante deve ser bem-sucedido em uma salvaguarda de Carisma contra a DT 10 + Nível de Estresse ou seu valor de Empatia (o que for mais alto), ou o ataque falha, pois a criatura retrai diante de sua majestade. Uma vez que você assume essa presença majestosa, não pode fazê-lo novamente até completar um Descanso Curto ou Longo."
+  },
+  {
+    "nome": "Combatente Montado",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Golpe Montado. Enquanto estiver montado, você tem Vantagem em jogadas de ataque contra qualquer criatura desmontada a até 1,5 metro de sua montaria que seja pelo menos um tamanho menor que a montaria. Pulo Lateral. Se sua montaria for submetida a um efeito que lhe permita realizar uma salvaguarda de Destreza para sofrer apenas metade do dano, ela não sofre dano em caso de sucesso, e apenas metade do dano se falhar. Para que sua montaria obtenha esse benefício, você deve estar montando-a, e nenhum de vocês pode ter a condição Incapacitado. Redirecionar Ataque. Enquanto estiver montado, você pode forçar um ataque que atinge sua montaria a atingi-lo se você não tem a condição Incapacitado"
+  },
+  {
+    "nome": "Conjurador Bélico",
+    "requisitos": [
+      "Mágico",
+      "Arquétipo Conjurador",
+      "Curandeiro"
+    ],
+    "descricao": "Quando uma criatura provocar um Ataque de Oportunidade a você ao sair do seu alcance, você pode executar uma Reação para conjurar uma magia contra a criatura, em vez de realizar o Ataque de Oportunidade. A magia deve ter um tempo de conjuração de uma ação e deve ter como alvo apenas aquela criatura."
+  },
+  {
+    "nome": "Especialista em Armas de Fogo",
+    "requisitos": [
+      "Nível 1 de Yog-Sothotheria"
+    ],
+    "descricao": "Você obtém proficiência com Armas de Fogo."
+  },
+  {
+    "nome": "Especialista em Armas Marciais",
+    "requisitos": [
+      "Nível 1 de Yog-Sothotheria"
+    ],
+    "descricao": "Você obtém proficiência com Armas Marciais corpo a corpo e à distância."
+  },
+  {
+    "nome": "Especialista em Armaduras",
+    "requisitos": [
+      "Nível 1 de Yog-Sothotheria"
+    ],
+    "descricao": "Você obtém proficiência com armaduras, escudos e coletes a prova de balas."
+  },
+  {
+    "nome": "Mestre das Armas",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Seu treinamento com armas permite que você use a propriedade de maestria de um tipo de arma Simples ou Marcial à sua escolha, desde que você tenha proficiência com ela. Sempre que completar um Descanso Longo, você pode trocar o tipo de arma por outro elegível."
+  },
+  {
+    "nome": "Mestre em Armaduras Pesadas",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Quando você é atingido por um ataque enquanto está vestido com uma armadura Pesada, qualquer dano Contundente, Cortante e Perfurante causado a você por esse ataque é reduzido em uma quantidade de pontos igual ao seu Nível de Yog-Sothotheria."
+  },
+  {
+    "nome": "Mestre em Armas de Haste",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Imediatamente após executar a ação Atacar e atacar com um Cajado, Lança ou uma arma que tenha as propriedades Alcance e Pesado, você pode executar uma Ação Bônus para realizar um ataque corpo a corpo com a extremidade oposta da arma. A arma causa dano Contundente, e o dado de dano da arma para este ataque é um d4. Enquanto você estiver segurando um Cajado, Lança ou uma arma que tenha as propriedades Alcance e Pesado, pode executar uma Reação para realizar um ataque corpo a corpo com essa arma contra uma criatura que está no alcance."
+  },
+  {
+    "nome": "Mestre em Armas Grandes",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Quando você atinge uma criatura com uma arma que tem a propriedade Pesada como parte da ação Atacar no seu turno, você pode causar dano adicional ao alvo com a arma. O dano adicional é igual ao sua Força. Imediatamente após obter um Acerto Crítico ou reduzir uma criatura a 0 Pontos de Vida com uma arma Corpo a Corpo, você pode realizar um ataque com a mesma arma como uma Ação Bônus."
+  },
+  {
+    "nome": "Mestre-Atirador",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Seus ataques à distância com armas ignoram Cobertura Parcial e Cobertura de Três Quartos. Estar a 1,5 metro de um inimigo não impõe Desvantagem em suas jogadas de ataque com armas à Distância. Atacar com alcance máximo não impõe Desvantagem em suas jogadas de ataque com armas à Distância."
+  },
+  {
+    "nome": "Recuperação Rápida",
+    "requisitos": [
+      "Arquétipo Defensor",
+      "Combatente",
+      "Atirador"
+    ],
+    "descricao": "Como uma Ação Bônus, você pode gastar um de seus Dados de Pontos de Vida, jogar o dado e recuperar um número de Pontos de Vida igual ao resultado."
+  },
+  {
+    "nome": "Mente Mística",
+    "requisitos": [],
+    "descricao": "Você tem Vantagem em salvaguardas de Resiliência que realiza para manter a Concentração."
+  },
+  {
+    "nome": "Sentinela",
+    "requisitos": [
+      "Nível 5 de Yog-Sothotheria"
+    ],
+    "descricao": "Imediatamente após uma criatura em até 1,5 metro de você executar a ação Desengajar ou atingir um alvo diferente de você com um ataque, você pode realizar um Ataque de Oportunidade contra essa criatura. Ao atingir uma criatura com um Ataque de Oportunidade, o Deslocamento da criatura se torna 0 pelo resto do turno atual."
+  },
+  {
+    "nome": "Sorrateiro",
+    "requisitos": [
+      "Arquétipo Atirador"
+    ],
+    "descricao": "Se você realizar uma jogada de ataque enquanto estiver escondido e errar a jogada, realizar a jogada de ataque não revela sua localização."
+  },
+  {
+    "nome": "Telepático",
+    "requisitos": [
+      "Nível 3 de Yog-Sothotheria"
+    ],
+    "descricao": "Você pode falar telepaticamente com qualquer criatura à sua vista a até 18 metros de você. Seus enunciados telepáticos estão em um idioma que você conhece, e a criatura só o entende se souber esse idioma. Sua comunicação não dá à criatura a capacidade de responder a você telepaticamente. Você tem a magia Detectar Pensamentos sempre preparada. Você pode conjurá-la sem um espaço de magia ou componentes de magia, não podendo conjurá-la dessa forma novamente antes de completar um Descanso Longo. Além disso, pode conjurá-la gastando o espaço de magia que você tem do círculo apropriado. Seu atributo de conjuração para a magia é o atributo aumentado por este talento."
+  },
+  {
+    "nome": "Arquearia",
+    "requisitos": [],
+    "descricao": "Você recebe um bônus de +2 nas jogadas de ataque com armas à Distância."
+  },
+  {
+    "nome": "Combate com Armas de Arremesso",
+    "requisitos": [],
+    "descricao": "Quando você atinge com uma jogada de ataque à distância usando uma arma com a propriedade Arremesso, você obtém um bônus de +2 na jogada de dano."
+  },
+  {
+    "nome": "Combate com Armas Grandes",
+    "requisitos": [],
+    "descricao": "Quando você joga dano para um ataque que realiza com uma arma Corpo a Corpo que está empunhando com as duas mãos, pode tratar qualquer 1 ou 2 em um dado de dano como um 3. A arma deve ter a propriedade Duas Mãos ou Versátil para obter este benefício."
+  },
+  {
+    "nome": "Combate Desarmado",
+    "requisitos": [],
+    "descricao": "Quando você atinge com seu Ataque Desarmado e causa dano, pode causar dano Contundente igual a 1d6 mais seu modificador de Força em vez do dano normal de um Ataque Desarmado. Se você não estiver segurando nenhuma arma ou Escudo quando realizar a jogada de ataque, o d6 se torna um d8. No início de cada um dos seus turnos, você pode causar 1d4 pontos de dano Contundente a uma criatura Imobilizada por você."
+  },
+  {
+    "nome": "Defensivo",
+    "requisitos": [],
+    "descricao": "Enquanto estiver usando armadura Leve, Média ou Pesada, você recebe um bônus de +1 na Classe de Armadura."
+  },
+  {
+    "nome": "Duelismo",
+    "requisitos": [],
+    "descricao": "Quando você segura uma arma Corpo a Corpo em uma mão e nenhuma outra arma, você recebe um bônus de +2 nas jogadas de dano desta arma."
+  },
+  {
+    "nome": "Protetivo",
+    "requisitos": [],
+    "descricao": "Quando uma criatura à sua vista ataca um alvo que não é você e que está a até 1,5 metro de distância, você pode executar uma Reação para interpor seu Escudo, se o estiver segurando. Isso impõe Desvantagem na jogada de ataque que acionou a reação e em todas as jogadas contra o alvo até o início do seu próximo turno, enquanto você estiver a até 1,5 metro do alvo."
+  },
+  {
+    "nome": "Dádiva da Fortitude",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Seus Pontos de Vida máximos aumentam em 40. Além disso, sempre que você recuperar Pontos de Vida, pode recuperar Pontos de Vida adicionais iguais ao seu número de pontos de HP. Após recuperar esses Pontos de Vida adicionais, você não pode fazer isso novamente até o início do seu próximo turno."
+  },
+  {
+    "nome": "Dádiva da Proeza em Combate",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Quando você erra uma jogada de ataque, em vez disso você acerta. Após usar este benefício, você não pode utilizá-lo novamente até o início do seu próximo turno."
+  },
+  {
+    "nome": "Dádiva da Recordação de Magia",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Sempre que você conjurar uma magia com um espaço de magia de 1º a 4º círculo, jogue 1d4. Se o resultado que você tirar for o mesmo que o círculo do espaço, o espaço não é gasto."
+  },
+  {
+    "nome": "Dádiva da Proficiência em Pericia",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Você ganha +10 pontos pra distribuir a todas as pericias."
+  },
+  {
+    "nome": "Dádiva da Recuperação",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Quando você for reduzido a 0 Pontos de Vida, pode escolher ficar com 1 Ponto de Vida e recuperar um número de Pontos de Vida igual à metade dos seus Pontos de Vida máximos. Após usar esse benefício, você não pode usá-lo novamente até completar um Descanso Longo. Você tem uma reserva de 10d10s. Como uma Ação Bônus, você pode gastar dados da reserva, jogá-los e recuperar um número de Pontos de Vida igual ao total do resultado. Você restaura todos os dados gastos quando você completa um Descanso Longo."
+  },
+  {
+    "nome": "Dádiva da Velocidade",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Como uma Ação Bônus, você pode executar a ação Desengajar, que também encerra a condição Imobilizado em você. Seu Deslocamento dobra."
+  },
+  {
+    "nome": "Dádiva da Viagem Dimensional",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Imediatamente após executar a ação Atacar ou Usar Magia, você pode se teleportar até 9 metros para um espaço desocupado à sua vista."
+  },
+  {
+    "nome": "Dádiva do Destino",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Quando você ou outra criatura a até 18 metros de você for bem-sucedida ou falhar em um Teste D20, você pode jogar 2d4 e aplicar os resultados como bônus ou penalidade na jogada de d20. Após usar este benefício, você não pode utilizá-lo novamente até jogar Iniciativa ou completar um Descanso Curto ou Longo."
+  },
+  {
+    "nome": "Dádiva do Espírito da Noite",
+    "requisitos": [
+      "Nível 9 de Yog-Sothotheria"
+    ],
+    "descricao": "Aumente um valor de atributo à sua escolha em 2, até no máximo 12. Enquanto estiver em Meia-luz ou Escuridão, você pode se conceder a condição Invisível como uma Ação Bônus. A condição encerra imediatamente após você executar uma ação, uma Ação Bônus ou uma Reação. Enquanto estiver em Meia-luz ou Escuridão, você tem Resistência a todos os danos, exceto Psíquico e Radiante."
+  },
+  {
+    "nome": "Ramos do Destino",
+    "requisitos": [
+      "Talento Fúria"
+    ],
+    "descricao": "Sempre que uma criatura que você pode ver começar o turno a até 9 metros de você enquanto sua Fúria estiver ativa, você pode executar uma Reação para convocar ramos espectrais da Árvore do Mundo ao redor dela. O alvo deve ser bem-sucedido em uma salvaguarda de Força (DT 8 + sua Força + Seu nível pela metade) ou é teleportado para um espaço desocupado à sua vista a até 1,5 metro de você ou no espaço desocupado mais próximo à sua vista. Depois que o alvo se teleportar, você pode reduzir o Deslocamento dele a 0 até o final do turno atual."
+  },
+  {
+    "nome": "Percorrer do Destino",
+    "requisitos": [
+      "Talento Fúria e Nível 6"
+    ],
+    "descricao": "Ao ativar sua Fúria e, como uma Ação Bônus enquanto ela estiver ativa, você pode se teleportar a até 18 metros para um espaço desocupado à sua vista. Além disso, uma vez por Fúria, você pode aumentar o alcance desse teleporte para 45 metros. Ao fazer isso, você também pode levar até seis criaturas voluntárias que estejam a até 3 metros de você. Cada criatura se teleporta para um espaço desocupado à sua escolha a até 3 metros do seu destino."
+  },
+  {
+    "nome": "Espirito Animal",
+    "requisitos": [
+      "Nível 1 de Yog-Sothotheria"
+    ],
+    "descricao": "Nos seus turnos, você pode escolher um animal a seguir e adquirir suas habilidades. Você escolhe um animal diferente todo turno como ação livre, ou mantém o mesmo como parte da mesma ação. Você perde os benefícios do animal anterior ao trocar de animal. Você pode usar essa habilidade um número de vezes igual ao seu valor de Sabedoria, por turnos igual ao dobro do seu nível. Águia. Ao ativar, você pode executar as ações Correr e Desengajar como Ação Bônus. Lobo. Ao ativar, seus aliados têm Vantagem em jogadas de ataque contra qualquer inimigo seu a até 1,5 metro de você. Urso. Ao ativar, você tem Resistência a todos os tipos de dano, exceto Energético, Necrótico, Psíquico e Radiante."
+  },
+  {
+    "nome": "Aspecto dos Selvagens",
+    "requisitos": [
+      "Nível 4 de Yog-Sothotheria e Talento \"Espirito Animal\""
+    ],
+    "descricao": "Você recebe uma das seguintes opções à sua escolha. Sempre que completar um Descanso Longo, você pode alterar sua escolha. Coruja. Você tem Visão no Escuro com um alcance de 18 metros. Se você já tem Visão no Escuro, seu alcance aumenta em 18 metros. Pantera. Você tem um Deslocamento de Escalada igual ao seu Deslocamento. Salmão. Você tem um Deslocamento de Natação igual ao seu Deslocamento."
+  },
+  {
+    "nome": "Poder dos Selvagens",
+    "requisitos": [
+      "Nível 6 de Yog-Sothotheria e Talento \"Espirito Animal\""
+    ],
+    "descricao": "Nos seus turnos, você pode escolher um animal a seguir e adquirir suas habilidades. Você escolhe um animal diferente todo turno como ação livre, ou mantém o mesmo como parte da mesma ação. Você perde os benefícios do animal anterior ao trocar de animal. Você pode usar essa habilidade um número de vezes igual ao seu valor de Sabedoria, por turnos igual ao dobro do seu nível. Carneiro. Enquanto estiver ativa, você pode impor a condição Caído em uma criatura Grande ou menor quando você a atinge com um ataque corpo a corpo ou à distância. Falcão. Enquanto estiver ativa, você tem um Deslocamento de Voo igual ao seu Deslocamento se não estiver usando nenhuma armadura. Leão. Enquanto estiver ativa, qualquer um de seus inimigos a até 1,5 metro de você tem Desvantagem em jogadas de ataque contra alvos que não sejam você ou outro aliado que tenha essa opção ativa."
+  },
+  {
+    "nome": "Campeão dos Deuses",
+    "requisitos": [
+      "Nível 2 de Yog-Sothotheria"
+    ],
+    "descricao": "Uma entidade divina assegura que você possa continuar lutando. Você tem uma reserva de 4d12s que pode gastar para se curar. Como uma Ação Bônus, você pode gastar dados da reserva, jogá-los e recuperar uma quantidade de Pontos de Vida igual ao total do resultado. Sua reserva restaura todos os dados gastos quando você completa um Descanso Longo. O número máximo de dados na reserva aumenta em um quando você atinge os níveis 4 (5 dados), 6 (6 dados) e 8 (7 dados)."
+  },
+  {
+    "nome": "Presença Zelosa",
+    "requisitos": [
+      "Espadachim",
+      "Guarda",
+      "Apresentador",
+      "Arquétipo Combatente",
+      "Defensor"
+    ],
+    "descricao": "Como uma Ação Bônus, você libera um grito de batalha infundido com energia divina. Até dez outras criaturas à sua escolha a até 18 metros de você obtêm Vantagem em jogadas de ataque e salvaguardas até o início do seu próximo turno. Uma vez que você usa essa característica, não pode usá-la novamente até completar um Descanso Longo."
+  },
+  {
+    "nome": "Lâmina Rúnica",
+    "requisitos": [
+      "Espadachim",
+      "Arquétipo Combatente",
+      "Nível 2"
+    ],
+    "descricao": "Você realiza um ritual ao longo de 1 hora, que pode ser feito durante um descanso curto. A espada deve estar ao seu alcance durante todo o ritual, ao final do qual você toca a espada e forja o vínculo, criando uma Lâmina Rúnica. Uma vez que você vinculou uma Lâmina Rúnica a si mesmo, não pode ser desarmado dela, a menos que esteja incapacitado. Se a espada estiver no mesmo plano de existência que você, pode convocá-la como uma ação bônus no seu turno, fazendo com que ela teletransporte instantaneamente para sua mão. Você pode ter até duas espadas de uma mão vinculadas ou uma espada de duas mãos vinculada (uma espada versátil conta como uma espada de duas mãos para este propósito) e uma espada de uma mão vinculada. Você só pode convocar uma Lâmina Rúnica por ação bônus. Se tentar vincular uma terceira espada, deve romper o vínculo com uma das outras duas. A partir do 2º nível, quando você acerta uma criatura com um ataque corpo a corpo usando uma Lâmina Rúnica, pode usar sua reação para causar 2d8 de dano necrótico ao alvo, além do dano da arma. Esse dano aumenta para 3d8 no 4 nível, 4d8 no 6 nível e 5d8 no 8 nível. Você pode usar Golpe da Morte um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) por descanso longo."
+  },
+  {
+    "nome": "Forma Selvagem",
+    "requisitos": [
+      "Nível 2"
+    ],
+    "descricao": "O poder da natureza permite que você assuma a forma de um animal. Como uma Ação Bônus, você multimorfa para uma forma Animal que você aprendeu com esta característica (veja “Formas Conhecidas”, abaixo). Você fica nessa forma por um número de horas igual à metade do seu Nível, até usar Forma Selvagem novamente, ter a condição Incapacitado ou morrer. Você também pode sair da forma antes como uma Ação Bônus. Quantidade de Usos. Você pode usar Forma Selvagem duas vezes. Você recupera um uso gasto ao completar um Descanso Curto e restaura todos os usos gastos ao completar um Descanso Longo. Você adquire usos adicionais ao atingir determinados Níveis, conforme mostrado na coluna Forma Selvagem da tabela. Formas Conhecidas.Você conhece quatro formas Animais com esta característica, escolhidas entre os blocos de estatísticas de Fera com um Nível de Desafio máximo de 1/4 e que não possuem um Deslocamento de Voo. Sempre que completar um Descanso Longo, você pode substituir uma de suas formas conhecidas por outra forma permitida. Além disso, a partir do nível 6, você pode adotar uma forma com Deslocamento de Voo. Ao escolher formas conhecidas, você pode procurar no Livro dos Monstros ou em outro lugar por Feras elegíveis se o Mestre permitir. Regras Enquanto Multimorfado. Enquanto estiver em uma forma, você mantém sua personalidade, memórias e capacidade de falar, e as seguintes regras se aplicam: - Pontos de Vida Temporários. Ao assumir uma Forma Selvagem, você adquire um número de Pontos de Vida Temporários igual ao seu nível. - Estatísticas de Jogo. Suas estatísticas de jogo são substituídas pelo bloco de estatísticas da Fera, mas você mantém seu tipo de criatura, Pontos de Vida, Dados de Vida, valores de Sabedoria e Empatia, características de emprego, idiomas e talentos. Você também mantém suas perícias. - Sem Conjuração. Você não pode conjurar magias, mas a multimorfia não quebra sua Concentração ou interfere em uma magia que você já conjurou. - Objetos. Sua capacidade de manipular objetos é determinada pelos membros da forma, e não pelos seus. Além disso, você escolhe se seu equipamento cai em seu espaço, se funde em sua nova forma ou se é usado por ela. O equipamento vestido funciona normalmente, mas o Mestre decide se é compatível para a nova forma usar um equipamento com base no tamanho e forma da criatura. Seu equipamento não muda de tamanho ou forma para corresponder à nova forma, e qualquer equipamento que a nova forma não possa usar deve cair no chão ou se fundir com a forma. O equipamento que se funde com a forma não tem efeito enquanto você estiver nessa forma. \\------------------------------------- FORMAS DE FERAS NIVEL FORMAS CONHECIDAS ND MAX. VOO 2 4 1/4 não 4 6 1 não 6 8 2 Sim ----------------------------------------"
+  },
+  {
+    "nome": "Ataque Primal.",
+    "requisitos": [
+      "Nível 3",
+      "Talento \"Forma Selvagem\""
+    ],
+    "descricao": "Uma vez em cada um dos seus turnos, ao atingir uma criatura com uma jogada de ataque usando uma arma ou um ataque da forma Animal em Forma Selvagem, pode causar 1d8 pontos de dano Elétrico, Gélido, Ígneo ou Trovejante (à sua escolha quando você atinge) adicional ao alvo."
+  },
+  {
+    "nome": "Trick Shoot",
+    "requisitos": [
+      "Nível 6 Arquétipo Atirador"
+    ],
+    "descricao": "Você aprende dois tiros-truque à sua escolha, detalhados em “Trick Shoot” abaixo. Você pode usar apenas um Trick Shoot por ataque. Você aprende um Trick Shoot adicional à sua escolha nos níveis 8 e 10. Cada vez que você aprende um novo Trick Shoot, você também pode substituir um dos Trick Shoot que já conhece por outro diferente. Coragem. Você ganha um número de pontos de coragem igual ao seu modificador de Sabedoria (mínimo 1). Você recupera todos os pontos de coragem gastos após um descanso curto ou longo. Testes de Resistência. Alguns dos seus Trick Shoot exigem que seus alvos façam um teste de resistência para resistir aos efeitos do Trick Shoot. A DT do teste de resistência é 8 + seu Nível pela metade + seu modificador de Agilidade. Tiro Intimidante - Quando você faz uma jogada de ataque usando uma arma de fogo, você pode gastar um ponto de coragem para forçar o alvo a fazer um teste de resistência de Carisma contra sua DT de Trick Shoot. Se falhar, a criatura fica amedrontada até o fim do seu próximo turno. Tiro Atordoante - Quando você acerta uma criatura com um ataque de arma de fogo, você pode gastar um ponto de coragem para tentar atordoar seu oponente. A criatura sofre o dano normal e deve fazer um teste de resistência de Constituição ou sofrer desvantagem em jogadas de ataque até o fim do próximo turno dela. Tiro Certeiro - Quando você faz um ataque de arma de fogo contra uma criatura, você pode gastar um ponto de coragem para ter vantagem na jogada de ataque. Tiro Desarmador - Quando você acerta uma criatura com um ataque de arma de fogo, você pode gastar um ponto de coragem para tentar atirar um objeto de suas mãos. Em um acerto, a criatura deve ter sucesso em um teste de resistência de Força ou largar 1 objeto que estiver segurando à sua escolha, e esse objeto é empurrado 3 m para longe de você. Tiro Impetuoso - Quando você faz um ataque de arma de fogo contra uma criatura, você pode gastar um ponto de coragem para tentar derrubá-la e empurrá-la para trás. A criatura sofre o dano normal e deve fazer um teste de resistência de Força ou ser empurrada 4,5 m para longe de você. Tiro Penetrante - Quando você acerta uma criatura com um ataque de arma de fogo, você pode gastar um ponto de coragem para tentar disparar através de múltiplos oponentes. A criatura sofre o dano normal e você faz uma jogada de ataque com desvantagem contra cada criatura situada numa linha de 4,5m diretamente atrás do alvo. Tiro Violento - Quando você acerta uma criatura com um ataque de arma de fogo, você pode gastar um ou mais pontos de coragem para aumentar a volatilidade do disparo. Role um dado de dano de arma adicional por cada ponto de coragem gasto ao determinar o dano. Tiro Tombador - Quando você acerta uma criatura com um ataque de arma de fogo, pode gastar um ponto de coragem para tentar derrubar um alvo em movimento. Num acerto, a criatura sofre o dano normal e deve fazer um teste de resistência de Força ou ser derrubada."
+  },
+  {
+    "nome": "Maldições de Sangue",
+    "requisitos": [
+      "Sanguinário",
+      "Assassino",
+      "Arquétipo Combatente",
+      "Curandeiro"
+    ],
+    "descricao": "Você aprende um truque à sua escolha, podendo aprender mais ao escolher esse talento novamente ou ao adquirir mais níveis de Sanguinário. Sua DT sempre será 10 + seu atributo de Empatia ou Força pra Combatentes. Você pode escolher amplificar cada uma dessas maldições sacrificando o seu próprio sangue ou de um aliado. O alvo recebe d8 de dano necrótico especificado na maldição. Você faz a ação de amplificar como uma ação bônus ou reação (escolhida na hora de conjuração). Se o aliado não for voluntário, faça um ataque de arma contra a CA do alvo. Maldição de Sangue da Influência Enganosa - Como uma ação, você pode tentar encantar um humanoide que possa ver a até 9 metros de você. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria ou ficará enfeitiçado por você por 1 minuto. Você deve se concentrar (como se estivesse se concentrando em uma magia) para manter a maldição. O alvo enfeitiçado obedece aos seus comandos. Se o alvo sofrer qualquer dano ou receber um comando suicida, ele repete seu teste de resistência, encerrando o efeito em um sucesso. Quando a maldição termina, o alvo sabe que foi enfeitiçado por você. Você deve terminar um descanso curto ou longo antes de invocar esta maldição de sangue novamente. Amplificar (2d8 necrótico): O alvo faz seu teste de resistência inicial contra esta maldição de sangue com desvantagem. Maldição de Sangue da Ligação - Como uma ação bônus, você pode tentar amarrar um inimigo de até uma categoria de tamanho maior que você a até 9 metros. O alvo deve ser bem-sucedido em um teste de resistência de Força ou terá sua velocidade reduzida a 0 até o final do seu próximo turno. Amplificar (2d8 necrótico): Esta maldição se torna contínua e pode afetar uma criatura independentemente de sua categoria de tamanho. Você deve se concentrar para interromper o movimento do alvo (como se estivesse se concentrando em uma magia). A criatura pode usar sua ação para fazer outro teste de resistência de Força. Em um sucesso, esta maldição termina. Maldição de Sangue do Fantoche Caído - No momento em que uma criatura a até 9 metros de você cai inconsciente ou morre, você pode usar sua reação para dar a essa criatura um ato final de agressão. Essa criatura faz imediatamente um ataque com arma contra um alvo de sua escolha dentro do alcance de ataque dela. Amplificar (2d8 necrótico): A criatura faz dois ataques com arma, em vez de um. Maldição de Sangue do Desvio - Quando um inimigo a até 18 metros de você faz um ataque contra uma criatura amiga, você pode usar sua reação para escolher outra criatura a até 1,5 metro da criatura atacante. A criatura escolhida se torna o alvo do ataque em vez disso. Amplificar (2d8): A criatura tem vantagem em sua rolagem de ataque. Maldição de Sangue do Sofrimento Mútuo - Como uma ação bônus, você pode se conectar a uma criatura a até 9 metros por até 1 minuto, forçando-a a compartilhar a dor que ela inflige a você. Na próxima vez que a criatura amaldiçoada causar dano a você com um ataque com arma, esta maldição causa dano necrótico à criatura amaldiçoada igual ao dano que você sofreu. Esta maldição então termina. Amplificar (3d8): Esta maldição em vez disso causa o dobro do dano que você sofreu e ignora resistência a dano necrótico. Maldição de Sangue da Proliferação - Como uma ação bônus, você pode acelerar a cura de uma criatura a até 18 metros. O alvo recupera pontos de vida iguais a três dados de vidas SEUS + seu modificador de Empatia. Amplificar (2d8): A criatura também ganha um número de pontos de vida temporários igual ao seu dado de vida + seu modificador de Empatia. svg 1. Maldição de Sangue do Puro Horror - Como uma ação bônus, você pode instilar puro horror em um inimigo a até 18 metros. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria ou sofrerá dano psíquico igual ao seu dado de vida + seu modificador de Empatia. O alvo deve usar imediatamente sua reação, se disponível, para se mover o máximo que sua velocidade permitir para longe de você. A criatura não se move para terreno obviamente perigoso, como fogo ou um poço. Em um sucesso no teste de resistência, a criatura sofre metade do dano e não se afasta. Amplificar (2d8): O alvo também fica Apavorado por você por 1 minuto. Maldição de Sangue da Purgação - Como uma ação bônus, você pode manipular a vitalidade de uma criatura a até 18 metros para expurgar corrupção de seu sangue. A criatura faz um teste de resistência contra uma condição Envenenado que a aflige. Amplificar (1d8): Seu alvo faz seu teste de resistência com vantagem, ou seu alvo pode, em vez disso, fazer um teste de resistência contra uma outra condição ou doença que o aflige. Maldição de Sangue do Rito Dilacerante - Como uma ação bônus, você pode aumentar o sangue em suas armas principais. Até o final do seu turno, você adiciona 2d8 necrótico no dano de suas armas. Amplificar (4d8): Todo o dano necrótico que você causa é dobrado até o final do seu próximo turno, e estende a duração desse efeito até que a amplificação termine. Maldição de Sangue da Abafação - Quando uma criatura a até 9 metros de você lança uma magia, você pode usar sua reação para abafá-la. O alvo deve ser bem-sucedido em um teste de resistência de Constituição, ou a magia do alvo falha e não tem efeito. Você deve terminar um descanso curto ou longo antes de invocar esta maldição de sangue novamente. Amplificar (3d8): Se o nível da magia for igual ou inferior à metade do seu nível de Yog-Sothotheria, a magia falha automaticamente."
+  },
+  {
+    "nome": "Leve",
+    "requisitos": [
+      "Armas com atributo Leve"
+    ],
+    "descricao": "(Para armas com atributo Leve) Ao invés de atacar apenas uma vez, você pode atacar duas usando sua ação e sua ação bonus."
+  },
+  {
+    "nome": "Druidismo",
+    "requisitos": [
+      "Arquétipo Conjurador",
+      "Suporte"
+    ],
+    "descricao": "Repetível Você pode escolher até 2 magias do arquétipo oposto ao seu que envolva natureza, invocação de criaturas vivas e do mesmo plano que o seu, elemental (apenas dos 4 elementos: fogo, terra, ar ou água) ou cura. Por exemplo: se você é um Conjurador, você pode escolher até 2 magias de cura ou assistência relacionado à natureza. Se você é um Suporte, você pode escolher 2 magias de invocação ou elemental."
+  },
+  {
+    "nome": "Invocador",
+    "requisitos": [],
+    "descricao": "Você pode escolher 1 magia de invocação da lista de magias de Conjurador. Você só pode escolher de um circulo máximo equivalente ao seu nível, vide tabela abaixo (o circulo máximo do arquétipo conjurador): 0 NIVEL - truque 1 NIVEL - primeiro circulo 2 NIVEL - segundo circulo 3 NIVEL - terceiro circulo 4 NIVEL - quarto circulo 5 NIVEL - quinto circulo 6 NIVEL - sexto circulo 7 NIVEL - sexto circulo 8 NIVEL - setimo circulo 9 NIVEL - oitavo circulo 10 NIVEL - nono circulo Você têm apenas um espaço de magia disponível por vez que escolher esse talento. (exemplo: 1 vez escolhida = 1 espaço, 2 vezes = 2 espaços, etc.) O espaço de magia é sempre equivalente ao circulo da magia escolhida."
+  },
+  {
+    "nome": "Magia Proibida",
+    "requisitos": [
+      "sempre tenha ao menos 1 ponto de Estresse. Esse ponto não pode ser eliminado ou curado de nenhuma forma."
+    ],
+    "descricao": "Ganhe acesso às magias de hemomancia, as quais você não precisa de espaços de magia pra conjurar - apenas se abdicar de seus dados de vida. Vide a tabela de magias disponíveis: 1 NIVEL - Ganhe uma de primeiro circulo. 2 NIVEL - +1 magia - circulo máximo: primeiro 3 NIVEL - +1 magia - circulo máximo: segundo 4 NIVEL - +1 magia - circulo máximo: terceiro 5 NIVEL - +1 magia - circulo máximo: quarto 6 NIVEL - +1 magia - circulo máximo: quinto 7 NIVEL - +1 magia - circulo máximo: sexto 8 NIVEL - +1 magia - circulo máximo: sétimo 9 NIVEL - +1 magia - circulo máximo: oitavo 10 NIVEL - +1 magia - circulo máximo: nono Seu bonus de ataque mágico é seu modificador de HP + Pontos de Estresse. Sua DT é 10+HP+Estresse."
+  }
+]

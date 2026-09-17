@@ -3,6 +3,7 @@ import WildMagics from "../database/WildMagics.json"
 import SearchBar from "../Componentes/SearchBar";
 import "../Styles/WildMagicPage.css"
 import { useState } from "react";
+import WindowEffect from "../Componentes/WindowEffect";
 
 
 export default function WildMagicsPage()
@@ -40,6 +41,7 @@ export default function WildMagicsPage()
 
     return (
         <div className="WildMagicPage">
+            <WindowEffect/>
             <div className="WildMagic_Header">
                 <SearchBar placeholder="" width="30%"/>
                 <div className="Color-guide">

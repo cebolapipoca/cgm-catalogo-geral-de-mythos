@@ -1,6 +1,7 @@
 
 .MagicPage_Header {
-
+    width: 100%;
+    
     & .input_label {
         display: flex;
         flex-direction: column;
@@ -55,4 +56,6 @@
     box-sizing: border-box;
     grid-auto-rows: auto;
     align-items: start;
+    height: 100%;
+    width: 100%;
 }

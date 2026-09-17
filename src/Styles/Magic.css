@@ -1,4 +1,11 @@
 
+
+.MagicPage {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 .Magic_Content {
     padding: 30px;
     color: white;

@@ -3,6 +3,7 @@ import "../Styles/MagicPage.css"
 import Magic from "../Componentes/Magic";
 import { useEffect, useState } from "react";
 import Magics from "../database/Magics.json"
+import WindowEffect from "../Componentes/WindowEffect";
 
 
 
@@ -12,10 +13,7 @@ export default function MagicsPage()
     const [Circle, useCircle] = useState("")
     const [ListMagics, useListMagics] = useState(Magics)
 
-    useEffect(()=>{
-        
-    }, [])
-
+    
     function FiltrarMagia(event) {
 
         let newListMagics = []
@@ -47,6 +45,7 @@ export default function MagicsPage()
 
     return (
         <div className="MagicPage">
+            <WindowEffect/>
             <div className="MagicPage_Header">
                 <div>
                         <div className="input_label">
@@ -85,6 +84,7 @@ export default function MagicsPage()
             </div>
 
             <div className="MagicPage_Magics">
+                 <WindowEffect/>
                 {
                     ListMagics.map((data)=>(
 

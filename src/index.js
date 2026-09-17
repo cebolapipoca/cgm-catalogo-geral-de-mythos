@@ -7,6 +7,8 @@ import { RouterProvider } from 'react-router';
 import Main from './Pages/Main';
 import MagicsPage from './Pages/Magics';
 import WildMagicsPage from './Pages/WildMagics';
+import TalentPage from './Pages/Talents';
+import ArchetypesPage from './Pages/Archetypes';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "WildMagics",
     element: <WildMagicsPage/>
+  },
+  {
+    path: "Talents",
+    element: <TalentPage/>
+  },
+  {
+    path: "Archetypes",
+    element: <ArchetypesPage/>
   }
 ])
 
