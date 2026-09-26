@@ -1,0 +1,2033 @@
+[
+  {
+    "Nome": "Ábaco",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "O ábaco é um instrumento de cálculo, formado por uma moldura com bastões ou arames paralelos, dispostos no sentido vertical, correspondentes cada um a uma posição digital (unidades, dezenas, etc.) e nos quais estão os elementos de contagem (fichas, bolas ou contas) que podem fazer-se deslizar livremente."
+  },
+  {
+    "Nome": "Ácido (vidro)",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Água benta (frasco)",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Algemas",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas algemas de metal podem prender uma criatura Pequena ou Média. Escapar das algemas exige sucesso em um teste de Destreza CD 20. Quebrá-las exige um teste de Força CD 20 bem-sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura das algemas com um sucesso em um teste de Destreza CD 15. As algemas têm 15 PA."
+  },
+  {
+    "Nome": "Algibeira",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma bolsa de pano ou couro pode armazenar até 20 balas de atiradeira ou 50 agulhas de zarabatana, entre outras coisas. Uma bolsa compartimentada para armazenar componentes de magia é chamada de bolsa de componentes."
+  },
+  {
+    "Nome": "Aljava",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma aljava pode guardar até 20 flechas."
+  },
+  {
+    "Nome": "Ampulheta",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Antídoto (vidro)",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma criatura que beber o líquido deste vidro adquire vantagem em testes de resistência contra venenos por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos."
+  },
+  {
+    "Nome": "Apito de advertência",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Aríeteportátil",
+    "Categoria": "geral",
+    "Valor do item": "$4",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "O personagem pode usar um aríete portátil para quebrar portas. Ao fazer isso, o personagem ganha um bônus de +4 no teste de Força. Um outro personagem pode ajudá-lo a usar o aríete, o que lhe dá vantagem no teste."
+  },
+  {
+    "Nome": "Armadilha de caça",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Quando o personagem usa sua ação para armá-la, essa armadilha forma um anel de aço com dentes serrilhados que se fecha quando uma criatura pisa sobre uma placa de pressão no seu centro. A armadilha é fixada por uma pesada corrente em um objeto fixo e imóvel, como uma árvore ou um cravo enterrado no chão. Uma criatura que pisar na placa de pressão deve ser bem-sucedida em um teste de resistência de Destreza CD 13 ou sofrerá 1d4 de dano perfurante e parará de se mover. Daí em diante, até que a criatura se liberte da armadilha, seu movimento é limitado ao comprimento da corrente (tipicamente 1 metro de comprimento). A criatura presa pode usar sua ação para realizar um teste de Força CD 13 e se libertar, ou outra criatura, ao alcance, pode realizar o teste para libertá-la. Cada fracasso no teste causa 1 de dano perfurante à criatura presa."
+  },
+  {
+    "Nome": "Arpéu",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Balança de mercador",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A régua inclui uma pequena balança, panelas e um sortimento adequado de pesos até 2 quilos. Com ela, o personagem pode medir o peso exato de pequenos objetos, como metais preciosos brutos ou bens comerciais, para ajudar a determinar seu valor."
+  },
+  {
+    "Nome": "Balde",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Barril",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Baú",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Bolsa de componentes",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A bolsa de componentes é uma pequena bolsa de couro à prova d'água que pode ser fixada em um cinto, e que tem compartimentos para armazenar todos os componentes materiais e outros itens especiais que o personagem precisa para lançar suas magias, exceto os componentes que possuem um custo específico."
+  },
+  {
+    "Nome": "Caixa de Fogo",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este pequeno recipiente detém uma pederneira, isqueiro e um pavio (um pano geralmente seco embebido em óleo) usado para acender uma fogueira. Usá-lo para acender uma tocha — ou qualquer outra coisa exposta à combustível abundante — leva uma ação. Acender qualquer outro fogo leva 1 minuto."
+  },
+  {
+    "Nome": "Caneca",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Caneta tinteiro",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Cantil",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Cesto",
+    "Categoria": "geral",
+    "Valor do item": "$4",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Cobertor de inverno",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Corda de cânhamo (15 metros)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A corda é feita de cânhamo ou de seda, tem 2 PA e pode arrebentar com um teste de Força CD 17 bem-sucedido."
+  },
+  {
+    "Nome": "Corda de seda (15 metros)",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A corda é feita de cânhamo ou de seda, tem 2 PA e pode arrebentar com um teste de Força CD 17 bem-sucedido."
+  },
+  {
+    "Nome": "Corrente (3 metros)",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma corrente possui 10 PA, ela pode ser arrebentada com um sucesso em um teste de Força CD 20."
+  },
+  {
+    "Nome": "Equipamento de pescaria",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este kit inclui uma vara de pescar de madeira, linha de seda, bóias de cortiça, anzóis de aço, chumbadas, iscas e redes de pesca."
+  },
+  {
+    "Nome": "Escada (3 metros)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Esferas (bolsa com 1,000)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Usando uma ação, o personagem pode despejar essas minúsculas esferas de metal para cobrir uma área de 3 metros quadrados (2 quadrados). A criatura que se mover dentro da área deve ser bem-sucedida em um teste de resistência de Destreza CD ou ficará derrubada. Uma criatura que andar pela área usando metade do seu deslocamento não precisa realizar o teste de resistência."
+  },
+  {
+    "Nome": "Esmeril",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Espelho de aço",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Estrepes (bolsa com 20)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Usando uma ação, o personagem pode espalhar um único saco de estrepes para cobrir uma área de 1,5 metros quadrados (1 quadrado). Qualquer criatura que entrar na área deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou parar de se mover e sofrer 1 de dano perfurante. Até que a criatura recupere pelo menos 1 ponto de vida, seu deslocamento de caminhada é reduzido em 3 metros (2 quadrados). Uma criatura que andar pela área usando metade do seu deslocamento não precisa realizar o teste de resistência."
+  },
+  {
+    "Nome": "Fechadura",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A fechadura vem com chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura com um sucesso em um teste de Destreza CD 15. O Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais elevados."
+  },
+  {
+    "Nome": "Fogo alquímico (frasco)",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este líquido pegajoso e adesivo inflama em contato com o ar. Usando uma ação, o personagem pode arremessar este frasco até 6 metros de distância (4 quadrados), quebrando-o com o impacto. O jogador deve realizar um ataque à distância contra a criatura ou objeto, tratando o fogo alquímico como uma arma improvisada. Em um sucesso, o alvo sofre 1d4 de dano flamejante no início de cada um de seus turnos. Uma criatura pode finalizar este dano usando sua ação para realizar um teste de Destreza CD 10 para apagar as chamas."
+  },
+  {
+    "Nome": "Garrafa de vidro",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Giz (1 peça)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Grimório",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco adequados para gravar magias."
+  },
+  {
+    "Nome": "Implemento Arcano - Bastão",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento arcano é um item especial — uma orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante — projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar esse item como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Arcano - Cajado",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento arcano é um item especial — uma orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante — projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar esse item como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Arcano - Cristal",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento arcano é um item especial — uma orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante — projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar esse item como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Arcano - Orbe",
+    "Categoria": "geral",
+    "Valor do item": "$20",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento arcano é um item especial — uma orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante — projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar esse item como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Arcano - Varinha",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento arcano é um item especial — uma orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante — projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar esse item como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Druidico - Cajado de madeira",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou de outra madeira especial, um cajado esculpido de uma árvore viva, ou um totem adornado com penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Druidico - Ramo de visco",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou de outra madeira especial, um cajado esculpido de uma árvore viva, ou um totem adornado com penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Druidico - Totem",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou de outra madeira especial, um cajado esculpido de uma árvore viva, ou um totem adornado com penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como um foco de conjuração."
+  },
+  {
+    "Nome": "Implemento Druidico - Varinha",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um implemento druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou de outra madeira especial, um cajado esculpido de uma árvore viva, ou um totem adornado com penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como um foco de conjuração."
+  },
+  {
+    "Nome": "Jarro",
+    "Categoria": "geral",
+    "Valor do item": "$4",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Kit de escalada",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um kit de escalada inclui pítons especiais, botas com solas pontiagudas, luvas e um cinto. O personagem pode usar o kit de escalada como uma ação para 'ancorar-se'; quando o personagem faz isso, ele não pode cair mais de 7,5 metros (5 quadrados) a partir do ponto onde ancorou-se, e não pode subir mais de 7,5 metros (5 quadrados) de distância desse ponto, sem desfazer a âncora."
+  },
+  {
+    "Nome": "Kit de primeiros socorros",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este kit é uma bolsa de couro contendo ataduras, pomadas e talas. O kit tem dez usos. Usando uma ação, o personagem pode gastar um uso do kit para estabilizar uma criatura que tenha 0 PA, sem a necessidade de realizar um teste de Sabedoria (Medicina)."
+  },
+  {
+    "Nome": "Kit de refeição",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Esta caixa de lata contém um copo e talheres simples. A caixa se desmonta no meio, um lado pode ser utilizado como uma panela para cozinhar e o outro como um prato ou uma tigela rasa."
+  },
+  {
+    "Nome": "Lâmpada",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma lâmpada lança luz brilhante em um raio de 4,5 metros (3 quadrados) e luz baixa por mais 9 metros (6 quadrados). Uma vez acesa, a lâmpada queima por 6 horas usando um frasco de óleo (500ml)."
+  },
+  {
+    "Nome": "Lanterna coberta",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma lanterna coberta lança luz brilhante em um raio de 9 metros (6 quadrados) e luz baixa por mais 9 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500ml). Usando uma ação, o personagem pode abaixar a cobertura, reduzindo a luz brilhante para luz baixa em um raio de 1,5 metros (1 quadrado)."
+  },
+  {
+    "Nome": "Lanterna furta-fogo",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Uma lanterna furta-fogo lança luz brilhante em um cone de 18 metros (16 quadrados) e luz baixa em mais 18 metros adicionais. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500ml)."
+  },
+  {
+    "Nome": "Lente de aumento",
+    "Categoria": "geral",
+    "Valor do item": "$100",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Esta lente permite um olhar mais atento a pequenos objetos. Ela também é útil como um substituto para a pederneira e isqueiro ao iniciar fogos. Acender um fogo com uma lupa necessita de luz tão brilhante como a luz solar para focar, um pavio e cerca de 5 minutos para o fogo acender. Uma lente de aumento concede vantagem em qualquer teste de atributo realizado para avaliar ou inspecionar um item que é pequeno ou muito detalhado."
+  },
+  {
+    "Nome": "Livro",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um livro pode conter poesia, relatos históricos, informações relativas a um campo particular de sabedoria, diagramas e notas sobre engenhocas de gnomos, ou qualquer outra coisa que possa ser representada usando texto ou imagens. Um livro com magias é um grimório."
+  },
+  {
+    "Nome": "Luneta",
+    "Categoria": "geral",
+    "Valor do item": "$1000",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Objetos vistos através de uma luneta são ampliados até o dobro do seu tamanho."
+  },
+  {
+    "Nome": "Manto",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Marreta",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Martelo",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Mochila",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Munição - Zarabatana (50)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Munição - Balas de Funda (20)",
+    "Categoria": "geral",
+    "Valor do item": "$4",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Munição - Flechas (20)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Munição - Virotes (20)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Óleo (frasco)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Óleo geralmente vem em um frasco de argila que contém 500ml. Usando uma ação, o personagem pode espirrar o óleo deste frasco em uma criatura adjacente (1,5 metros ou 1 quadrado) ou arremessá-lo até 6 metros (4 quadrados), quebrando-o com o impacto. O jogador deve realizar um ataque à distância contra uma criatura ou objeto, tratando o óleo como uma arma improvisada. Em um sucesso, o alvo é coberto de óleo. Se o alvo sofrer qualquer dano flamejante antes do óleo secar (depois de 1 minuto), ele sofre 5 de dano flamejante adicional pela queima do óleo. O personagem também pode derramar um frasco de óleo no chão para cobrir uma área de 1,5 metros quadrados (1 quadrado), desde que a superfície esteja nivelada. Se aceso, o óleo queima por 2 rodadas e causa 5 de dano flamejante a qualquer criatura que entrar na área ou terminar seu turno dentro da área. Uma criatura pode sofrer esse dano apenas uma vez por turno."
+  },
+  {
+    "Nome": "Pá",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Panela de ferro",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Papel (uma folha)",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Parafina",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Pé de cabra",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Usar um pé de cabra concede vantagem nos testes de Força, onde uma alavanca possa ser aplicada."
+  },
+  {
+    "Nome": "Perfume (vidro)",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Pergaminho (uma folha)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Picareta de mina",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Píton",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Poção de cura",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um personagem que beber o líquido vermelho mágico deste frasco recupera 2d4+2 PA."
+  },
+  {
+    "Nome": "Porta mapas ou pergaminhos",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este estojo cilíndrico de couro pode armazenar até 10 folhas de papel enroladas ou 5 folhas de pergaminhos enroladas."
+  },
+  {
+    "Nome": "Porta virotes de besta",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este estojo de madeira pode armazenar até 20 virotes de besta."
+  },
+  {
+    "Nome": "Pregos de ferro (10)",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Rações de viagem (1 dia)",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Rações de viagem consistem em alimentos secos adequados para viagens longas, incluindo carne seca, frutas secas, bolachas e nozes."
+  },
+  {
+    "Nome": "Sabão",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Saco",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Saco de dormir",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Símbolo Sagrado - Amuleto",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto representando o símbolo de uma divindade, o mesmo símbolo cuidadosamente gravado ou ornado como o emblema de um escudo, ou uma pequena caixa com um fragmento de uma relíquia sagrada."
+  },
+  {
+    "Nome": "Símbolo Sagrado - Emblema",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto representando o símbolo de uma divindade, o mesmo símbolo cuidadosamente gravado ou ornado como o emblema de um escudo, ou uma pequena caixa com um fragmento de uma relíquia sagrada."
+  },
+  {
+    "Nome": "Símbolo Sagrado - Relicário",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto representando o símbolo de uma divindade, o mesmo símbolo cuidadosamente gravado ou ornado como o emblema de um escudo, ou uma pequena caixa com um fragmento de uma relíquia sagrada."
+  },
+  {
+    "Nome": "Sinete",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Sino",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Talha ou sisal",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a talha ou sisal permite içar até quatro vezes o peso que um personagem poderia levantar normalmente."
+  },
+  {
+    "Nome": "Tenda para duas pessoas",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Um abrigo simples e portátil, acomoda dois indivíduos."
+  },
+  {
+    "Nome": "Tocha",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "A tocha queima por 1 hora, fornecendo luz brilhante num raio de 6 metros (4 quadrados) e luz baixa por mais 6 metros. Se o personagem realizar um ataque corpo a corpo com uma tocha, ele causa 1 de dano flamejante."
+  },
+  {
+    "Nome": "Tinta (vidro de 30ml)",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Traje, comum",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Traje, elegante",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Traje, fantasia",
+    "Categoria": "geral",
+    "Valor do item": "$15",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Traje, viajante",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Vara (3 metros)",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Vela",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Por uma hora, a vela emana luz brilhante em uma área de 1,5 metros quadrados (1 quadrado), e luz baixa em uma área adicional de 1,5 metros quadrados (1 quadrado)."
+  },
+  {
+    "Nome": "Veneno básico (vidro)",
+    "Categoria": "geral",
+    "Valor do item": "$100",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "O personagem pode usar o veneno contido neste vidro para cobrir a lâmina de uma arma cortante ou perfurante ou até três peças de munição. Aplicar o veneno leva uma ação. Uma criatura atingida pela arma ou munição envenenada deve obter sucesso em um teste de resistência de Constituição CD 10 ou sofrerá 1d4 de dano venenoso. Uma vez aplicado, o veneno retém sua potência durante 1 minuto antes de secar."
+  },
+  {
+    "Nome": "Vidro ou frasco",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Baralho",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este item faz parte de uma ampla gama de peças de jogo, incluindo dados e baralhos de cartas (para jogos como Três Dragões). Alguns exemplos comuns são exibidos na tabela de ferramentas, mas existem outros tipos de conjuntos de jogos. Se for proficiente com um conjunto de jogos, o jogador pode adicionar seu bônus de proficiência nos testes de atributo que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Dados",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este item faz parte de uma ampla gama de peças de jogo, incluindo dados e baralhos de cartas (para jogos como Três Dragões). Alguns exemplos comuns são exibidos na tabela de ferramentas, mas existem outros tipos de conjuntos de jogos. Se for proficiente com um conjunto de jogos, o jogador pode adicionar seu bônus de proficiência nos testes de atributo que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Tabuleiro",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este item faz parte de uma ampla gama de peças de jogo, incluindo dados e baralhos de cartas (para jogos como Três Dragões). Alguns exemplos comuns são exibidos na tabela de ferramentas, mas existem outros tipos de conjuntos de jogos. Se for proficiente com um conjunto de jogos, o jogador pode adicionar seu bônus de proficiência nos testes de atributo que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Carpinteiro",
+    "Categoria": "geral",
+    "Valor do item": "$8",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Cartógrafo",
+    "Categoria": "geral",
+    "Valor do item": "$15",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Coureiro",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Entalhador",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Ferreiro",
+    "Categoria": "geral",
+    "Valor do item": "$20",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Joalheiro",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Oleiro",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Pedreiro",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Sapateiro",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Serralheiro",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Tecelão",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Vidreiro",
+    "Categoria": "geral",
+    "Valor do item": "$30",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Alquimista",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Calígrafo",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Cervejeiro",
+    "Categoria": "geral",
+    "Valor do item": "$20",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Pintor",
+    "Categoria": "geral",
+    "Valor do item": "$10",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Cozinheiro",
+    "Categoria": "geral",
+    "Valor do item": "$1",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Estas ferramentas especiais incluem os itens necessários para executar um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada um fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar usando as ferramentas de seu ofício. Cada tipo de ferramentas de artesão requer uma proficiência em separado."
+  },
+  {
+    "Nome": "Ferramentas de Ladrão",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este conjunto de ferramentas inclui uma pequena pasta, um conjunto de gazuas, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas, e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar para desarmar armadilhas ou abrir fechaduras."
+  },
+  {
+    "Nome": "Ferramentas de Navegador",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este conjunto de instrumentos é usado para navegação no mar. Proficiência com as ferramentas de navegador permite traçar um curso de navio e seguir cartas de navegação. Além disso, essas ferramentas permitem que o jogador adicione seu bônus de proficiência para qualquer teste de habilidade que realizar para não se perder no mar."
+  },
+  {
+    "Nome": "Alaúde",
+    "Categoria": "geral",
+    "Valor do item": "$35",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Charamela",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Flauta Doce",
+    "Categoria": "geral",
+    "Valor do item": "$2",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Flauta",
+    "Categoria": "geral",
+    "Valor do item": "$12",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Gaita de Fole",
+    "Categoria": "geral",
+    "Valor do item": "$30",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Lira",
+    "Categoria": "geral",
+    "Valor do item": "$30",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Tambor",
+    "Categoria": "geral",
+    "Valor do item": "$6",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Trombeta",
+    "Categoria": "geral",
+    "Valor do item": "$3",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Viola",
+    "Categoria": "geral",
+    "Valor do item": "$30",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Xilofone",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se o jogador possuir proficiência com um determinado instrumento musical, ele pode adicionar seu bônus de proficiência para quaisquer testes de atributo que realizar para tocar música com o instrumento. Cada tipo de instrumento musical exige uma proficiência em separado."
+  },
+  {
+    "Nome": "Kit de Disfarce",
+    "Categoria": "geral",
+    "Valor do item": "$25",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Esta bolsa de cosméticos, tintura de cabelo e pequenos adereços permite criar disfarces que mudam sua aparência física. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar para criar um disfarce visual."
+  },
+  {
+    "Nome": "Kit de Falsificação",
+    "Categoria": "geral",
+    "Valor do item": "$15",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Esta pequena caixa contém uma variedade de papéis e pergaminhos, canetas e tintas, selos e lacres, folha de ouro e prata, e outros suprimentos necessários para criar falsificações convincentes de documentos físicos. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar para criar uma falsificação de um documento físico."
+  },
+  {
+    "Nome": "Kit de Herbalismo",
+    "Categoria": "geral",
+    "Valor do item": "$5",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "Este kit contém uma variedade de instrumentos, como alicates, almofariz e pilão, e bolsas e frascos utilizados pelos herbalistas para criar remédios e poções. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar para identificar ou aplicar ervas. Além disso, a proficiência com este kit é necessária para criar antídotos e poções de cura."
+  },
+  {
+    "Nome": "Kit de Veneno",
+    "Categoria": "geral",
+    "Valor do item": "$50",
+    "Arma": {},
+    "classe de armadura": "",
+    "descrição": "O kit de venenos inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de atributo que o jogador realizar para criar ou utilizar venenos."
+  },
+  {
+    "Nome": "Adaga",
+    "Categoria": "arma",
+    "Valor do item": "$2",
+    "Arma": {
+      "Dano da arma": "1d4 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Ágil, leve, arremesso (6/18)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Azagaia",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (9/36)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Cajado",
+    "Categoria": "arma",
+    "Valor do item": "$2",
+    "Arma": {
+      "Dano da arma": "1d6 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Versátil (1d8)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Clava Grande",
+    "Categoria": "arma",
+    "Valor do item": "$2",
+    "Arma": {
+      "Dano da arma": "1d8 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Duas Mãos"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Desarmado",
+    "Categoria": "arma",
+    "Valor do item": "-",
+    "Arma": {
+      "Dano da arma": "1 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": ""
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Foice Curta",
+    "Categoria": "arma",
+    "Valor do item": "$1",
+    "Arma": {
+      "Dano da arma": "1d4 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Lança",
+    "Categoria": "arma",
+    "Valor do item": "$1",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Versátil (1d8), arremesso (6/18)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Maça",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d6 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": ""
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Machadinha",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d6 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, arremesso (6/18)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Martelo Leve",
+    "Categoria": "arma",
+    "Valor do item": "$2",
+    "Arma": {
+      "Dano da arma": "1d4 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, arremesso (6/18)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Porrete",
+    "Categoria": "arma",
+    "Valor do item": "$1",
+    "Arma": {
+      "Dano da arma": "1d4 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Arco Curto",
+    "Categoria": "arma",
+    "Valor do item": "$25",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "24/96. Munição, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Besta Leve",
+    "Categoria": "arma",
+    "Valor do item": "$25",
+    "Arma": {
+      "Dano da arma": "1d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "24/96. Munição, recarga, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Dardo",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d4 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "6/18. Ágil, arremesso."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Funda",
+    "Categoria": "arma",
+    "Valor do item": "$1",
+    "Arma": {
+      "Dano da arma": "1d4 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "9/36. Munição."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Machado",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "1d8 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Versátil (1d10)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Mangual",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "1d8 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": ""
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Glaive",
+    "Categoria": "arma",
+    "Valor do item": "$20",
+    "Arma": {
+      "Dano da arma": "1d10 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, alcance, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Machado Grande",
+    "Categoria": "arma",
+    "Valor do item": "$30",
+    "Arma": {
+      "Dano da arma": "1d12 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Espada Duas Mãos",
+    "Categoria": "arma",
+    "Valor do item": "$50",
+    "Arma": {
+      "Dano da arma": "2d6 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Alabarda",
+    "Categoria": "arma",
+    "Valor do item": "$20",
+    "Arma": {
+      "Dano da arma": "1d10 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, alcance, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Lança de Montaria",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "1d12 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance, especial."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Espada Longa",
+    "Categoria": "arma",
+    "Valor do item": "$15",
+    "Arma": {
+      "Dano da arma": "1d8 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Versátil (1d10)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Marreta",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "2d6 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Maça Estrela",
+    "Categoria": "arma",
+    "Valor do item": "$15",
+    "Arma": {
+      "Dano da arma": "1d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": ""
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Pique",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d10 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, alcance, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Florete",
+    "Categoria": "arma",
+    "Valor do item": "$25",
+    "Arma": {
+      "Dano da arma": "1d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Ágil."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Cimitarra",
+    "Categoria": "arma",
+    "Valor do item": "$25",
+    "Arma": {
+      "Dano da arma": "1d6 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Ágil, leve."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Espada Curta",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Ágil, leve."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Tridente",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (6/18), versátil (1d8)."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Picareta de Guerra",
+    "Categoria": "arma",
+    "Valor do item": "$5",
+    "Arma": {
+      "Dano da arma": "1d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": ""
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Martelo de Guerra",
+    "Categoria": "arma",
+    "Valor do item": "$15",
+    "Arma": {
+      "Dano da arma": "1d8 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Versátil (1d10)"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Chicote",
+    "Categoria": "arma",
+    "Valor do item": "$2",
+    "Arma": {
+      "Dano da arma": "1d4 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Ágil, alcance."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Zarabatana",
+    "Categoria": "arma",
+    "Valor do item": "$10",
+    "Arma": {
+      "Dano da arma": "1 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "7,5/30. Munição, recarga."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Besta de Mão",
+    "Categoria": "arma",
+    "Valor do item": "$75",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "9/36. Munição, leve, recarga."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Besta Pesada",
+    "Categoria": "arma",
+    "Valor do item": "$50",
+    "Arma": {
+      "Dano da arma": "1d10 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "30/120. Munição, pesada, recarga, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Arco Longo",
+    "Categoria": "arma",
+    "Valor do item": "$50",
+    "Arma": {
+      "Dano da arma": "1d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "45/180. Munição, pesada, duas mãos."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Rede",
+    "Categoria": "arma",
+    "Valor do item": "$1",
+    "Arma": {
+      "Dano da arma": "-",
+      "Bônus de Ataque": 0,
+      "Propriedades": "1,5/4,5. Especial, arremesso."
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Molotov",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d10 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Especial, leve, arremessável (9/18 m)"
+    },
+    "classe de armadura": "",
+    "descrição": "Um coquetel Molotov é um tipo de garrafa facilmente quebrável, geralmente de vidro, cheia de uma substância inflamável que varia de gasolina a álcool, ou até mesmo substâncias semelhantes a napalm, misturadas com uma pequena quantidade de óleo de motor, tudo coberto com um pano embebido em álcool ou querosene. Como uma ação, você pode arremessar um coquetel Molotov a até 18 metros de distância. Cada criatura a até 6 metros de um coquetel Molotov em explosão deve fazer um teste de resistência de Destreza CD 15 ou sofrer 1d10 de dano de fogo e começar a queimar por 1d4 rodadas. Em caso de sucesso no teste, a criatura sofre metade do dano e não começa a queimar. Após o coquetel Molotov ser lançado, suas chamas se espalham, cobrindo um raio de 3 metros do alvo por 1d4 rodadas, incendiando quaisquer objetos inflamáveis dentro dessa área. Criaturas que iniciarem seus turnos dentro dessa área devem fazer um teste de resistência de Constituição CD 12 ou sofrer 1d8 de dano de fogo."
+  },
+  {
+    "Nome": "Lança Chamas",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "3d8 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance (22,8/36,6 m), pesado, recarrega (10 tiros), duas mãos, especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Um dispositivo que consiste em um tanque pesado cheio de combustível espessado, usado nas costas, e uma pistola de chamas na mão que projeta e inflama o combustível. É útil para limpar bunkers e cavernas. Uma criatura que sofre dano de um lança-chamas sofre 1d6 de dano de fogo no início de cada um de seus turnos, não acumulando. Uma criatura pode encerrar esse dano usando sua ação para fazer um teste de Destreza CD 15 para extinguir as chamas. Você tem desvantagem em testes de Destreza com o lança-chamas, devido ao seu tamanho extremo. Especial: você pode fazer um ataque normal contra um único alvo com um lança-chamas, ou pode atingir tudo em uma linha de 1,5 m de largura por 22,8 m de comprimento, disparando toda a carga de 10 tiros do lança-chamas. Cada criatura na área deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou sofrerá o dano normal do lança-chamas."
+  },
+  {
+    "Nome": "Mosquete",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance (9/27), recarregar, duas mãos, empurrar"
+    },
+    "classe de armadura": "",
+    "descrição": "Se você acertar uma criatura com esta arma, você pode empurrá-la até 3 metros em linha reta para longe de você, se ela for Grande ou menor."
+  },
+  {
+    "Nome": "Taser",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d4 Elétrico",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, alcance (6/12 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma arma que dispara farpas eletrificadas conectadas a uma bateria interna por fios. Esta arma precisa ser recarregada como uma ação. Em um ataque bem-sucedido, a criatura alvo deve ser bem-sucedida em um teste de resistência de Constituição CD 15, ficando paralisada até o final do seu próximo turno em caso de falha."
+  },
+  {
+    "Nome": "Motosserra",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d8 Cortante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Pesada, duas mãos, especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma grande serra de metal carregada com as duas mãos, boa para serrar. Uma motosserra funciona por um total de 30 minutos com um tanque cheio de ½ galão de gasolina e pode ser ligada ou desligada como uma ação bônus. Uma motosserra que não está ligada ou está sem gasolina conta apenas como um porrete improvisado, causando 1d8 de dano de concussão."
+  },
+  {
+    "Nome": "Faca Balística",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d4 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, acuidade, oculta, pequena, especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma faca balística tem a mesma aparência e funciona como uma faca normal, mas secretamente possui uma lâmina acionada por mola de alta tensão que pode ser disparada a até 9 metros de distância com velocidade incrível. É ilegal na maioria dos países. Especial: você pode pressionar um interruptor na faca para fazê-la disparar, realizando um ataque corpo a corpo especial com alcance de 9 metros que causa 4d4 de dano perfurante em vez do dano normal. Acerto ou erro, após realizar este ataque, a faca se torna inutilizável como arma até que você gaste uma ação para rebobiná-la."
+  },
+  {
+    "Nome": "RPG",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "6d10 Impacto + 6d10 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance (18/180 m), pesada, carregamento, especial, duas mãos"
+    },
+    "classe de armadura": "",
+    "descrição": "Um RPG (lançador de granadas propelidas por foguete) dispara granadas antibunker de 40 mm. Ao atacar com um RPG, você pode escolher entre uma criatura, um objeto ou um ponto dentro do alcance. Se você escolher uma criatura ou um objeto e acertar a CA do alvo, ele não poderá fazer um teste de resistência para reduzir o dano sofrido. Cada criatura a até 9 metros de uma granada explodindo deve fazer um teste de resistência de Destreza CD 20, sofrendo o dano indicado em caso de falha ou metade desse dano em caso de sucesso. Arma de Cerco: um RPG causa dano dobrado contra objetos e estruturas."
+  },
+  {
+    "Nome": "Bazuca",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "6d8 Impacto + 6d8 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance (18/180 m), pesada, carregamento, especial, duas mãos"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma bazuca é um lançador de foguetes de 60 mm, ideal para penetrar armaduras mais pesadas, embora notoriamente imprecisa. Ao atacar com uma bazuca, você pode escolher entre uma criatura, um objeto ou um ponto dentro do alcance. Se você escolher uma criatura ou um objeto e acertar a CA do alvo, ele não poderá fazer um teste de resistência para reduzir o dano sofrido. Cada criatura a até 9 metros de um foguete explodindo deve fazer um teste de resistência de Destreza CD 15, sofrendo o dano listado em caso de falha ou metade desse dano em caso de sucesso. Arma de Cerco: uma bazuca causa dano dobrado contra objetos e estruturas."
+  },
+  {
+    "Nome": "Egg Gun",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d12 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 65/195), rajada, recarrega (50 tiros), rajada curta (2 tiros), duas mãos"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola de ovos é uma arma de fogo automática leve e de cano curto que dispara ovos."
+  },
+  {
+    "Nome": "Granada de Fragmentação",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "5d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (18 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Como uma ação, você pode arremessar uma granada de fragmentação a até 18 metros de distância. Cada criatura a até 6 metros de uma granada de fragmentação explodindo deve fazer um teste de resistência de Destreza CD 15. Em caso de falha, a criatura sofre 5d6 de dano perfurante e deve ser bem-sucedida em um teste de resistência de Constituição CD 15 ou começará a sangrar. Em caso de sucesso, a criatura sofre metade do dano e não sangra."
+  },
+  {
+    "Nome": "Granada Incendiária",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "5d6 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (18 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Como uma ação, você pode lançar uma granada incendiária a até 18 metros de distância. Cada criatura a até 6 metros de uma granada incendiária em explosão deve fazer um teste de resistência de Destreza CD 15 ou sofrer 5d6 de dano de fogo e começar a queimar. Se o teste for bem-sucedido, a criatura sofre metade do dano e não começa a queimar. Uma granada incendiária lançada emite luz brilhante em um raio de 12 metros e luz fraca em um raio de 12 metros por 1 minuto."
+  },
+  {
+    "Nome": "Granada de Fumaça",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "-",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (18 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Como uma ação, você pode lançar uma granada de fumaça a um ponto a até 18 metros de distância. Ao atingir o solo, ela emite uma nuvem de fumaça que cria uma área levemente obscurecida em um raio de 3 metros por 1 minuto. Após 1 rodada, a área se torna fortemente obscurecida em um raio de 6 metros. A fumaça se espalha pelas esquinas. Um vento moderado (pelo menos 16 quilômetros por hora) dispersa a fumaça em 4 rodadas; um vento forte (32 quilômetros por hora ou mais) a dispersa em 1 rodada."
+  },
+  {
+    "Nome": "Granada de Luz",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d6 Trovejante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Arremesso (18 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Como uma ação, você pode lançar uma granada de atordoamento a até 18 metros de distância. Cada criatura a até 6 metros de uma granada de atordoamento explodindo deve fazer um teste de resistência de Destreza CD 15 ou ficará cega e surda até o final do seu próximo turno. Criaturas a até 1,5 metro da granada sofrem 1d6 de dano trovejante. Se o teste for bem-sucedido, a criatura sofre metade do dano e não fica cega e surda."
+  },
+  {
+    "Nome": "Magnum",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d10 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Recarga (6 tiros), alcance (60/180), pesado"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Minigun",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "4d10 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 40/240), rajada, pesada, recarrega (45 tiros), duas mãos, rajada curta (3), estabilizadora"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma minigun é uma arma rotativa de seis canos com uma fita desintegrável, alimentada por bateria e com capacidade para disparar 100 projéteis de 7,62 NATO por segundo."
+  },
+  {
+    "Nome": "Panzerknacke",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "5d6 Impacto + 5d6 Fogo",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 30/90 m), luva, oculto, carregamento"
+    },
+    "classe de armadura": "",
+    "descrição": "Esta arma peculiar é supostamente um canhão de pulso de 30 mm sem recuo e acionado eletricamente. Especial: os projéteis disparados de um panzerknacke podem atingir uma criatura, um objeto ou um ponto dentro do alcance. Uma criatura cuja CA seja atingida por um ataque de projétil não pode tentar um teste de resistência para reduzir o dano sofrido. Cada criatura a até 3 metros de um projétil em explosão deve fazer um teste de resistência de Destreza CD 15, sofrendo o dano listado em caso de falha ou metade desse dano em caso de sucesso."
+  },
+  {
+    "Nome": "Pistola Automática",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Alcance (15/45 m), recarga"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Pistola Pesada Automática",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 60/180), recarga (9 tiros)"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola semiautomática maior, com calibre como .50 ou 10mm. É visivelmente mais pesada que uma pistola automática típica e tem um recuo maior, mas também um poder de fogo superior."
+  },
+  {
+    "Nome": "Pistola Leve Automática",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d4 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 40/120), oculta, leve, recarregável (6 tiros)"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola leve semiautomática, às vezes chamada de pistola de bolso. Elas são pequenas o suficiente para serem facilmente escondidas e leves o suficiente para que você possa empunhar uma em cada mão."
+  },
+  {
+    "Nome": "Pistola Super Pesada Automática",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "3d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 18/55 m), recarga (6 tiros), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma arma de fogo verdadeiramente ridícula, as pistolas superpesadas superam até mesmo as automáticas pesadas. Se você tiver um valor de Força de 5 ou menos e fizer um ataque com uma pistola semiautomática superpesada, você sofre 1d4 de dano de impacto, pois o coice fere seu pulso ou faz com que a pistola o atinja."
+  },
+  {
+    "Nome": "S&W 500",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "3d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Recarga (5 tiros), alcance (60/180), pesado"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Pistola .22",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d4 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 30/90), oculta, recarregar (16), silenciada"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Submetralhadora",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d6 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 65/195), rajada, recarregar (50 tiros), rajada curta (2 tiros), duas mãos"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma submetralhadora é uma arma de fogo automática, leve e de cano curto, alimentada por carregador, que dispara cartuchos de pistola. Comparadas a armas mais pesadas, como fuzis de assalto, as submetralhadoras são significativamente mais fáceis de controlar e mais úteis em ambientes de combate a curta distância. Algumas submetralhadoras são leves o suficiente para serem usadas com uma só mão."
+  },
+  {
+    "Nome": "Pistola Vulcânica",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d8 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 40/120), carregamento"
+    },
+    "classe de armadura": "",
+    "descrição": ""
+  },
+  {
+    "Nome": "Varinha Anti-Robô",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d4 Concussão",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, recarga (50 golpes), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma varinha anti-robô se assemelha a um simples porrete de metal e, contra a maioria das criaturas, essa é toda a sua função. No entanto, se uma varinha anti-robô for brandida com força contra um robô, ela desfere um choque potente que embaralha os circuitos do alvo, infligindo danos severos. Especial: uma varinha anti-robô causa 6d6 de dano psíquico adicional sempre que atinge um robô, androide, IA ou qualquer outro tipo de criatura senciente com um cérebro digital, incluindo um ciborgue que tenha um cérebro parcialmente ou totalmente robótico. O dano psíquico causado por uma varinha anti-robô ignora resistência e imunidade a dano psíquico."
+  },
+  {
+    "Nome": "Pistola de Soco a Laser",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1 Concussão + 3d6 Radiante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Luva, oculta, leve, recarregar (10 tiros)"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola de soco a laser é como uma pistola de soco, exceto que dispara um feixe de laser concentrado de alta energia em vez de balas. Especial: você pode rolar o dado de dano do seu ataque desarmado em vez do dano de concussão desta arma."
+  },
+  {
+    "Nome": "Pistola de Soco a Plasma",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1 Concussão + 3d6 Elétrico",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Luva, oculta, leve, recarregar (10 tiros)"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola de soco a laser é como uma pistola de soco, exceto que dispara um feixe de laser concentrado de alta energia em vez de balas. Especial: você pode rolar o dado de dano do seu ataque desarmado em vez do dano de concussão desta arma."
+  },
+  {
+    "Nome": "Faca de Combate Carregada com Plasma",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d4 Perfurante + 2d4 Elemental",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, destreza"
+    },
+    "classe de armadura": "",
+    "descrição": "Esta faca causa 2d4 de dano adicional de fogo, ácido, relâmpago ou necrótico. Cada faca só pode causar 1 tipo de dano adicional e nunca pode ser alterada, a menos que seja completamente reforjada."
+  },
+  {
+    "Nome": "Manopla Ultra Blade",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d12 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, oculta"
+    },
+    "classe de armadura": "",
+    "descrição": "Estas manoplas permitem ao usuário atacar em velocidades irreais, sendo ao mesmo tempo uma arma discreta."
+  },
+  {
+    "Nome": "Pistola à Prova de Idiotas",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d12 Perfurante",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Munição (alcance 9/27 m), recarga (6 tiros)"
+    },
+    "classe de armadura": "",
+    "descrição": "Uma pistola à prova de idiotas é uma arma barata, fabricada em massa, projetada para ser ultrarresistente e praticamente impossível de manusear incorretamente. Pode não ser uma arma muito eficaz, mas você pode usá-la como um porrete o quanto quiser, ou deixá-la enterrada na areia por semanas e ela ainda funcionará. Você ainda pode adicionar metade da sua Agilidade às jogadas de ataque com uma pistola à prova de idiotas se não for proficiente com a arma. Criaturas têm vantagem em testes de habilidade para descobrir como uma pistola à prova de idiotas funciona e em testes de habilidade para mantê-la ou repará-la."
+  },
+  {
+    "Nome": "Pistola Blaster",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "3d4 Força",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Leve, recarga (20), alcance (50/200)"
+    },
+    "classe de armadura": "",
+    "descrição": "A pistola blaster é um item básico em toda a galáxia por seus disparos rápidos e confiáveis. Ela funciona disparando um feixe de partículas pulsado focado. O breve pulso ou pacote de partículas altamente carregadas detona ao impacto, causando danos graves a qualquer coisa azarada o suficiente para ser atingida. Essas pistolas consomem energia de uma Bateria, com cada bateria fornecendo energia suficiente para 20 disparos."
+  },
+  {
+    "Nome": "Cartas de Baralho Mágico",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "1d6 Perfurante Mágico",
+      "Bônus de Ataque": 0,
+      "Propriedades": "Acuidade, leve, arremesso (9/27 m), especial"
+    },
+    "classe de armadura": "",
+    "descrição": "Ao realizar a ação de Ataque usando estas cartas, compre a carta do topo do baralho e descarte-a, deixando-a de lado. Você pode optar por embaralhar as cartas descartadas de volta ao baralho quando todas as cartas tiverem sido descartadas ou quando realizar um descanso curto, e deve embaralhar todas as suas cartas de volta quando realizar um descanso longo. Cada baralho tem 54 cartas. Ás de Espadas: ao atacar um alvo, você acerta automaticamente com um acerto crítico. Outros Ases: ao atacar, você tem vantagem na jogada de ataque. Dois: o ataque causa metade do dano. Você ainda precisa acertar o alvo. Três: ao atacar, você tem desvantagem na jogada de ataque. Quatro: ao atacar o alvo, você erra automaticamente com uma falha crítica. Cinco: o ataque é feito normalmente. Seis: o ataque é feito normalmente. Sete: o ataque é feito normalmente e você pode rolar 1d4 adicional no dano. Oito: o ataque é feito normalmente e você pode se mover imediatamente até a metade do seu deslocamento sem provocar ataques de oportunidade. Nove: o ataque é feito normalmente e, quando acertar, você causa 1d8 a mais e recupera 2 usos de cartas já descartadas. Dez: o ataque é feito normalmente e você pode se teletransportar instantaneamente até 9 metros de distância para um espaço desocupado. Valetes: o ataque é feito normalmente e você pode optar por lançar Invisibilidade em si mesmo imediatamente, sem gastar uma ação ou um espaço de magia. Rainhas: o ataque é feito normalmente e você pode se mover imediatamente até o limite do seu deslocamento sem provocar ataques de oportunidade. Reis: o ataque é feito normalmente e você recebe um dado de inspiração d10 que dura um minuto. Durante esse tempo, você pode usar o dado para adicionar 1d10 a qualquer teste de habilidade, jogada de ataque ou teste de resistência. Coringa: o ataque é feito normalmente. Role na tabela de Surto de Magia Selvagem para criar um efeito mágico aleatório adicional."
+  },
+  {
+    "Nome": "Leque dos Quatro Ventos",
+    "Categoria": "arma",
+    "Valor do item": "",
+    "Arma": {
+      "Dano da arma": "2d6 Cortante",
+      "Bônus de Ataque": 1,
+      "Propriedades": "Acuidade, leve, arremesso (6/18 m), especial, alcance"
+    },
+    "classe de armadura": "",
+    "descrição": "Você recebe +1 nas jogadas de ataque e dano feitas com esta arma mágica. O leque também causa 1d6 de dano cortante adicional e possui a propriedade alcance quando você o empunha com as duas mãos, graças às fortes rajadas de vento que a arma é capaz de emitir. O portador deste leque é considerado proficiente com ele enquanto estiver sintonizado com a arma. Enquanto estiver segurando este leque, você pode usar uma ação para conjurar, através dele, as magias Rajada de Vento ou Muralha de Vento, uma vez cada, com CD de resistência 15. O leque recupera o uso de cada uma dessas habilidades ao amanhecer."
+  },
+  {
+    "Nome": "Roupas Flexíveis",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "10+agi",
+    "Descrição": "",
+    "Categoria da Armadura": "leve",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Vestes de Duelista",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "11+for",
+    "Descrição": "",
+    "Categoria da Armadura": "leve",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Roupas de Palhaço",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "12+emp (metade)",
+    "Descrição": "",
+    "Categoria da Armadura": "leve",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Variante Gambeson",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "13+agi",
+    "Descrição": "",
+    "Categoria da Armadura": "leve",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Colete a Prova de Balas",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "13+agi",
+    "Descrição": "",
+    "Categoria da Armadura": "leve",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Couraça da Marinha",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "14+agi (máx 3)",
+    "Descrição": "",
+    "Categoria da Armadura": "média",
+    "Força": "-",
+    "Furtividade": "-"
+  },
+  {
+    "Nome": "Traje Espacial",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "15+agi (máx 2)",
+    "Descrição": "",
+    "Categoria da Armadura": "média",
+    "Força": "14",
+    "Furtividade": "desvantagem"
+  },
+  {
+    "Nome": "Couraça Reiter",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "20",
+    "Descrição": "",
+    "Categoria da Armadura": "pesada",
+    "Força": "4",
+    "Furtividade": "desvantagem"
+  },
+  {
+    "Nome": "Armadura Samurai",
+    "Categoria": "armadura",
+    "Valor do item": "$-",
+    "Arma": {},
+    "Classe de armadura": "17",
+    "Descrição": "",
+    "Categoria da Armadura": "pesada",
+    "Força": "7",
+    "Furtividade": "-"
+  }
+]

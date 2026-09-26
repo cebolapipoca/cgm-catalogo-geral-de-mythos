@@ -4,6 +4,6 @@ import "../Styles/SearchBar.css"
 export default function SearchBar(props)
 {
     return (
-        <input placeholder={props.placeholder} style={{width: props.width}} className="SearchBar"></input>
+        <input onChange={props.changeEvent} placeholder={props.placeholder} style={{width: props.width}} id="SearchBar" className="SearchBar"></input>
     )
 }

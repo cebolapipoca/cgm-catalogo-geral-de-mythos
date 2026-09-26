@@ -9,6 +9,7 @@ import MagicsPage from './Pages/Magics';
 import WildMagicsPage from './Pages/WildMagics';
 import TalentPage from './Pages/Talents';
 import ArchetypesPage from './Pages/Archetypes';
+import ItemPage from './Pages/Itens';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "Archetypes",
     element: <ArchetypesPage/>
+  },
+  {
+    path: "Item",
+    element: <ItemPage/>
   }
 ])
 

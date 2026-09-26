@@ -10,9 +10,9 @@ export default function MainMenu()
             <div className="MainMenu_Content">
                 <MainMenuButton namebutton="Magias" href="/Magics" image={MagicIcon}/>
                 <MainMenuButton namebutton="Magias Selvagens" href="/wildmagics" image={MagicIcon}/>
-                <MainMenuButton namebutton="Talentos" image={MagicIcon}/>
-                <MainMenuButton namebutton="Arquétipos" image={MagicIcon}/>
-                <MainMenuButton namebutton="Itens" image={MagicIcon}/>
+                <MainMenuButton namebutton="Talentos" href="/talents" image={MagicIcon}/>
+                <MainMenuButton namebutton="Arquétipos" href="/archetypes" image={MagicIcon}/>
+                <MainMenuButton namebutton="Itens" href="/Item" image={MagicIcon}/>
                 <MainMenuButton namebutton="Regras" image={MagicIcon}/>
             </div>
         </div>
