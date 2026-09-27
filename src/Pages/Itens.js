@@ -5,6 +5,11 @@ import SearchBar from "../Componentes/SearchBar";
 import Item from "../Componentes/Item";
 import Coin from '../Images/Icons/Coin.svg'
 import Category from "../Images/Icons/Category.svg"
+import all from "../Images/Icons/all.svg"
+import shield from "../Images/Icons/Shield.svg"
+import potion from "../Images/Icons/potion.svg"
+import pentagram from "../Images/Icons/Pentagram.svg"
+import star from "../Images/Icons/star.svg"
 import ItemDatabase from "../database/Item.json"
 import { useState } from "react";
 
@@ -22,6 +27,8 @@ export default function ItemPage()
         "Força": "",
         "Furtividade": ""}
     )
+
+    const [newListItem, usenewListItem] = useState(ItemDatabase)
 
     function SelecionarItem(event) {
         
@@ -65,22 +72,51 @@ export default function ItemPage()
         console.log(ItemSelected)
     }
 
+    function FiltrarItem() {
+        const SearchBar = document.getElementById("SearchBar")
+        const newList = []
+
+        ItemDatabase.map((data)=>{
+            if(data.Nome.toLowerCase().includes(SearchBar.value.toLowerCase()))
+            {
+                newList.push(data)
+            }
+        })
+
+        usenewListItem(newList)
+    }
+
+    function FiltrarCategoria(categoria)
+    {
+        const newList = []
+
+        ItemDatabase.map((data)=>{
+           if(data.Categoria == categoria)
+           {
+                newList.push(data)
+           }
+        })
+
+        console.log(newList)
+        usenewListItem(newList)
+    }
+
     return (
         <div className="ItemPage">
             <div className="ItemCategory">
-                <button><img src={IconTeste}/></button>
-                <button><img src={IconTeste}/></button>
-                <button><img src={IconTeste}/></button>
-                <button><img src={IconTeste}/></button>
-                <button><img src={IconTeste}/></button>
-                <button><img src={IconTeste}/></button>
+                <button onClick={()=>{FiltrarCategoria("geral")}}><img src={all}/></button>
+                <button onClick={()=>{FiltrarCategoria("arma")}}><img src={IconTeste}/></button>
+                <button onClick={()=>{FiltrarCategoria("armadura")}}><img src={shield}/></button>
+                <button onClick={()=>{FiltrarCategoria("consumiveis")}}><img src={potion}/></button>
+                <button onClick={()=>{FiltrarCategoria("itens magicos")}}><img src={pentagram}/></button>
+                <button onClick={()=>{FiltrarCategoria("itens especiais")}}><img src={star}/></button>
             </div>
             <div className="Itens">
-               <SearchBar width="99%"/>
+               <SearchBar changeEvent={()=>FiltrarItem()} width="99%"/>
                 
                 <div className="Itens-Container">
                    {
-                    ItemDatabase.map((data)=>(
+                    newListItem.map((data)=>(
                         <Item click={(event)=>{SelecionarItem(event)}} Nome={data.Nome} Categoria={data.Categoria} Valor={data["Valor do item"]}/>
                     ))
                    }
