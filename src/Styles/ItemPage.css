@@ -198,6 +198,44 @@
     }
 }
 
+    @media screen and (max-width: 1250px) {
+        .ItemInfo1 {
+            width: 94% !important;
+            height: 400px !important;
+            
+            & textarea {
+                font-size: 14px !important;
+            }
+        }
+
+        .ItemInfo2 {
+            & h2 {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .ItemInfo1 {
+            width: 94% !important;
+            height: 300px !important;
+            
+            & textarea {
+                font-size: 11px !important;
+            }
+        }
+
+        .ItemCategory {
+                display: none !important;
+            }
+    }
+
     @media screen and (max-width: 1067px) {
         
+    }
+
+    @media screen and (max-width: 950px) {
+        .Itens-Container {
+         grid-template-columns: 1fr !important;
+    }
     }

@@ -11,7 +11,11 @@ export default function WildMagicsPage()
 
     const [WildEffects, useWildEffects] = useState([])
 
-    
+    function RandomNumber(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
     function SendEffect(event)
     {
@@ -39,6 +43,40 @@ export default function WildMagicsPage()
         useWildEffects(WildMagicEffect)       
     }
 
+    function RandomizeEffect()
+    {
+        let NumberRandom = RandomNumber(1, 100)
+        let WildMagicEffect = []
+        const EffectList = Array.from(document.getElementsByClassName("button_ResultNumber"))
+
+
+        EffectList.map((result)=>{
+            result.style.backgroundColor = "transparent"
+            result.style.color = "white"
+        })
+
+        EffectList.map((result)=>{
+            
+            if(result.getAttribute("itemID") == NumberRandom)
+            {
+                result.style.backgroundColor = "cyan"
+                result.style.color = "rgb(2, 150, 150)"
+                result.focus()
+            }
+        })
+
+        WildMagics.map((data)=>{
+            if(NumberRandom == data.resultado)
+            {
+                WildMagicEffect.push(data)
+            }
+        })
+
+      
+        useWildEffects(WildMagicEffect)
+
+    }
+
     return (
         <div className="WildMagicPage">
             <WindowEffect/>
@@ -49,6 +87,7 @@ export default function WildMagicsPage()
                         <li>🔴 Extremo</li>
                         <li>🟡 Moderado</li>
                         <li>🟢 Incômodo </li>
+                        <button onClick={RandomizeEffect}>Randomizar</button>
                     </ul>
                 </div>
             </div>
