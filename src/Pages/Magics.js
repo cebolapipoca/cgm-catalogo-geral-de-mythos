@@ -17,6 +17,7 @@ export default function MagicsPage()
     function FiltrarMagia(event) {
 
         let newListMagics = []
+        let FilterArchetype = []
         const SearchBar = document.getElementById("SearchBar_Magic")
 
         //verificação por circulo
@@ -35,11 +36,36 @@ export default function MagicsPage()
             })
         }
 
+      
+        newListMagics.map((data, indice)=>{
+
+            if(document.getElementById("SelectArchetype").value == "all")
+            {
+                FilterArchetype = newListMagics
+            }
+            else
+            {
+                data.Archetypes.map((arche)=>{
+                    if(document.getElementById("SelectArchetype").value == arche)
+                    {
+                        FilterArchetype.push(data)
+                    }
+                    
+                })
+            }
+        })
+
+        newListMagics = FilterArchetype
+
         //verificação por nome da magia
         newListMagics = newListMagics.filter((data) => {
             return data.Name.toLowerCase().includes(SearchBar.value.toLowerCase()) === true
         })
 
+        
+            
+       
+       
         useListMagics(newListMagics)
     }
 
@@ -71,12 +97,10 @@ export default function MagicsPage()
                         </div>
                     <div className="input_label" style={{width: "100%"}}>
                         <label>Arquétipo:</label>
-                        <select>
-                            <option>Suporte</option>
-                            <option>Conjurador</option>
-                            <option>Combatente</option>
-                            <option>Atirador</option>
-                            <option>Hemomancia</option>
+                        <select id="SelectArchetype" onChange={FiltrarMagia}>
+                            <option value={"all"}>Todos</option>
+                            <option value={"Suporte"}>Suporte</option>
+                            <option value={"Conjurador"}>Conjurador</option>
                         </select>
                     </div>
                 </div>
@@ -88,7 +112,7 @@ export default function MagicsPage()
                 {
                     ListMagics.map((data)=>(
 
-                        <Magic circle={data.Circle} description={data.Description} name={data.Name} action={data.Action} range={data.Range} duration={data.Duration}/>
+                        <Magic circle={"Circulo " + data.Circle} description={data.Description} name={data.Name} action={data.Action} range={data.Range} duration={data.Duration}/>
                     ))
                 }
             </div>
