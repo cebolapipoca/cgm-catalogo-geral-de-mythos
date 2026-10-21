@@ -12,6 +12,7 @@ import pentagram from "../Images/Icons/Pentagram.svg"
 import star from "../Images/Icons/star.svg"
 import ItemDatabase from "../database/Item.json"
 import { useState } from "react";
+import WindowEffect from "../Componentes/WindowEffect";
 
 export default function ItemPage()
 {
@@ -103,6 +104,7 @@ export default function ItemPage()
 
     return (
         <div className="ItemPage">
+            <WindowEffect/>
             <div className="ItemCategory">
                 <button onClick={()=>{FiltrarCategoria("geral")}}><img src={all}/></button>
                 <button onClick={()=>{FiltrarCategoria("arma")}}><img src={IconTeste}/></button>

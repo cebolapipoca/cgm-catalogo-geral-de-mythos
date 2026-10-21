@@ -10,6 +10,14 @@ import WildMagicsPage from './Pages/WildMagics';
 import TalentPage from './Pages/Talents';
 import ArchetypesPage from './Pages/Archetypes';
 import ItemPage from './Pages/Itens';
+import SoundPage from './Componentes/SoundPage';
+import RulesPage from './Pages/Rules';
+import CharacterRules from './Pages/RulesPages/Characters';
+import WindowEffect from './Componentes/WindowEffect';
+import MarchSystem from './Pages/RulesPages/MarchSystem';
+import StressLevel from './Pages/RulesPages/Stress';
+
+
 
 const router = createBrowserRouter([
   {
@@ -35,6 +43,22 @@ const router = createBrowserRouter([
   {
     path: "Item",
     element: <ItemPage/>
+  },
+  {
+    path: "Rules",
+    element: <RulesPage/>
+  },
+   {
+    path: "/Rules/Characters",
+    element: <CharacterRules/>
+  },
+  {
+    path: "/Rules/Marchs",
+    element: <MarchSystem/>
+  },
+  {
+    path: "/Rules/Stress",
+    element: <StressLevel/>
   }
 ])
 
@@ -44,7 +68,11 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <RouterProvider router={router}/>
+  <>
+    <RouterProvider router={router}/>
+    <SoundPage/>
+    <WindowEffect/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
