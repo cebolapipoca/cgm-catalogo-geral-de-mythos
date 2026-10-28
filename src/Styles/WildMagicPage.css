@@ -8,12 +8,24 @@
 .WildMagicPage {
     padding: 60px;
     box-sizing: border-box;
-    
 }
 
 .WildMagic_Header {
     display: flex;
     justify-content: space-between;
+
+    & h1 {
+        color: white ;
+        width: 100%;
+        text-align: center;
+        border: 1px solid cyan;
+    }
+}
+
+.ResultNumber h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
 }
 
 .Color-guide {
@@ -125,5 +137,45 @@
                     color: lime;
                 }
             }
+    }
+}
+
+.rollEffectButton {
+   position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    & img {
+        width: 30%;
+    }
+}
+
+.rollEffectBox {
+    width: 30%;
+    border: 1px solid cyan;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    display: none;
+    
+
+
+    & h1, h2 {
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    & h2 {
+        border: 1px solid cyan;
     }
 }

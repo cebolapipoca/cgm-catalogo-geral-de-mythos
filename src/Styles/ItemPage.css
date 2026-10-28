@@ -145,6 +145,22 @@
             font-size: 20px;
         }
 
+        & .ItemDescription {
+            width: 97%;
+            position: relative;
+
+            & img {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 97%;
+                height: 100%;
+                opacity: 15%;
+                border: 100%;
+                filter: brightness(350%);
+            }
+        }
+
     }
 
     .BuyItemButton {

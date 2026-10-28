@@ -13,6 +13,7 @@ import star from "../Images/Icons/star.svg"
 import ItemDatabase from "../database/Item.json"
 import { useState } from "react";
 import WindowEffect from "../Componentes/WindowEffect";
+import bluestatic from "../Images/bluestatic.gif"
 
 export default function ItemPage()
 {
@@ -124,10 +125,13 @@ export default function ItemPage()
                    }
                 </div>
             </div>
-            <div className="ItensInfo">
+            <div className="ItensInfo animate__animated animate__backInDown animate__faster" key={ItemSelected.Nome}>
                 <div className="ItemInfo1">
                     <h1>{ItemSelected["Nome"]}</h1>
-                    <textarea readOnly value={ItemSelected["descrição"]}/>
+                    <div className="ItemDescription">
+                        <img src={bluestatic}/>
+                        <textarea readOnly style={ItemSelected["descrição"] != "" ? {} : {display:"flex",justifyContent:"center", textAlign: "center", alignContent: "center", verticalAlign: "middle"}} value={ItemSelected["descrição"] != "" ? ItemSelected["descrição"] : "[ITEM NÃO POSSUI DESCRIÇÃO]"}/>
+                    </div>
                 </div>
                 <div className="ItemInfo2">
                     <h2><img src={Category}/>{"Categoria do item: " + ItemSelected["Categoria"]}</h2>
