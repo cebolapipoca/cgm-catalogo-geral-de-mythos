@@ -117,7 +117,7 @@ export default function ItemPage()
             <div className="Itens">
                <SearchBar changeEvent={()=>FiltrarItem()} width="99%"/>
                 
-                <div className="Itens-Container">
+                <div className="Itens-Container animate__animated animate__fadeIn">
                    {
                     newListItem.map((data)=>(
                         <Item click={(event)=>{SelecionarItem(event)}} Nome={data.Nome} Categoria={data.Categoria} Valor={data["Valor do item"]}/>
@@ -125,7 +125,7 @@ export default function ItemPage()
                    }
                 </div>
             </div>
-            <div className="ItensInfo animate__animated animate__backInDown animate__faster" key={ItemSelected.Nome}>
+            <div className="ItensInfo animate__animated animate__fadeIn" key={ItemSelected.Nome}>
                 <div className="ItemInfo1">
                     <h1>{ItemSelected["Nome"]}</h1>
                     <div className="ItemDescription">

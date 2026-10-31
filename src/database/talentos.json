@@ -486,10 +486,244 @@
     "Descricao": "Repetível\nRepetível\nVocê pode escolher 1 magia de invocação da lista de magias de Conjurador.\nVocê só pode escolher de um circulo máximo equivalente ao seu nível, vide tabela abaixo (o circulo máximo do arquétipo conjurador):\n0 NIVEL  -    truque\n1 NIVEL   -    primeiro circulo\n2 NIVEL   -   segundo circulo\n3 NIVEL   -   terceiro circulo\n4 NIVEL   -   quarto circulo\n5 NIVEL   -   quinto circulo\n6 NIVEL   -   sexto circulo\n7 NIVEL   -    sexto circulo\n8 NIVEL   -    setimo circulo\n9 NIVEL   -    oitavo circulo\n10 NIVEL   -    nono circulo\nVocê têm apenas um espaço de magia disponível por vez que escolher esse talento. (exemplo: 1 vez escolhida = 1 espaço, 2 vezes = 2 espaços, etc.) O espaço de magia é sempre equivalente ao circulo da magia escolhida.",
     "Requisitos": ""
   },
-  {
-    "Nome": "Magia Proibida",
-    "Nivel": "",
-    "Descricao": "Ganhe acesso às magias de hemomancia, as quais você não precisa de espaços de magia pra conjurar - apenas se abdicar de seus dados de vida. Vide a tabela de magias disponíveis:\n1 NIVEL   -   Ganhe uma de primeiro circulo.\n2 NIVEL   -   +1 magia - circulo máximo: primeiro\n3 NIVEL   -   +1 magia - circulo máximo: segundo\n4 NIVEL   -   +1 magia - circulo máximo: terceiro\n5 NIVEL   -   +1 magia - circulo máximo: quarto\n6 NIVEL   -   +1 magia - circulo máximo: quinto\n7 NIVEL   -    +1 magia - circulo máximo: sexto\n8 NIVEL   -    +1 magia - circulo máximo: sétimo\n9 NIVEL   -    +1 magia - circulo máximo: oitavo\n10 NIVEL   -    +1 magia - circulo máximo: nono\nSeu bonus de ataque mágico é seu modificador de HP + Pontos de Estresse. Sua DT é 10+HP+Estresse.",
-    "Requisitos": "1 ponto de Estresse"
-  }
+{
+  "Nome": "Médico",
+  "Nivel": "0",
+  "Descricao": "Você é um doutor da área da saúde, seja qual for sua especialização. Você tem +2 na perícia Medicina, e tem vantagem em testes que envolvem analisar doenças, tratar feridas ou cura que utilize a perícia Medicina. Você tem proficiência com bisturi, seringas, tesouras cirúrgicas, faca de blair e kit médico. Ao curar uma criatura, você pode adicionar o seu valor de Empatia vezes o seu nível na cura, uma vez por descanso longo. Seu equipamento inicial inclui 1 bisturi, 1 kit médico e um jaleco.",
+  "Requisitos": "Médico"
+},
+{
+  "Nome": "Enfermeiro",
+  "Nivel": "0",
+  "Descricao": "Você é mestre em lidar com pessoas e cuidar delas, assim como auxiliar em medicina. Você tem um dado de vantagem ao tentar acalmar emoções e/ou remover pontos de estresse. Você tem proficiência com kit médicos e equipamentos cirúrgicos. Você ganha +1 na perícia Medicina e +1 em Intuição. Você pode gastar uma ação pra remover 1 ponto de estresse de uma criatura, podendo fazer isso 1 vez por descanso longo com recarga. Quando completar seu descanso longo, jogue 1d6. O valor de recarga é 3-6. Seu equipamento inicial inclui 1 kit médico e um jaleco.",
+  "Requisitos": "Enfermeiro"
+},
+{
+  "Nome": "Criminoso",
+  "Nivel": "0",
+  "Descricao": "Você é alguém que embarcou na vida da criminalidade, seja qual for seu motivo. Furtividade é sua especialidade, tendo +2 na perícia. Você tem proficiência com kit de ladrão, e têm vantagem ao abrir fechaduras e desarmar armadilhas. Enquanto você estiver escondido, você tem +3 em testes de Agilidade e em todas as suas ramificações, exceto pilotagem. Seu equipamento inicial inclui 1 kit de ladrão, uma máscara e 1 faca de arremesso.",
+  "Requisitos": "Criminoso"
+},
+{
+  "Nome": "Assassino",
+  "Nivel": "0",
+  "Descricao": "Você é alguém que mata pessoas, seja por diversão ou dinheiro, participando de uma sociedade específica, culto ou solitário. Você tem +1 em Pontaria e +1 em Combate. Você tem proficiência com armas de fogo, facas, adagas e machados. Você tem vantagem em testes que envolvem esconder corpos e eliminar evidências, além de ter vantagem no seu primeiro ataque se a vítima não tiver agido ainda. Seu equipamento inicial inclui 1 arma de fogo simples, luvas e 1 faca.",
+  "Requisitos": "Assassino"
+},
+{
+  "Nome": "Xerife/Policial",
+  "Nivel": "0",
+  "Descricao": "Você é um oficial da lei, repreendendo criminosos e aplicando justiça na sua forma mais bruta. Você tem +1 em Pontaria e +1 em Resiliência. Você tem proficiência com armas de fogo, taser, cassetete e algemas. Você tem vantagem em testes físicos contra seu alvo (criminoso), e pode algemá-lo como uma ação bônus após usar sua ação principal pra incapacitá-lo. Caso seu alvo passe num teste de resistência contra ser algemado, você só pode tornar a algemá-lo no seu próximo turno, com uma ação principal. Seu equipamento inclui 1 arma de fogo simples, um distintivo e 1 cassetete.",
+  "Requisitos": "Xerife/Policial"
+},
+{
+  "Nome": "Detetive",
+  "Nivel": "0",
+  "Descricao": "Você é um investigador nato, ajudando na solução de crimes e agindo de forma eficiente na justiça, sem ter que entrar na força bruta. Você tem +1 em Intuição, +1 em Percepção e +1 em Memória. Você tem vantagem em testes que envolvem investigação e persuasão pra interrogar alvos. Se você utilizar uma ação bônus pra analisar um alvo humanoide, você pode descobrir uma das seguintes: fraquezas, imunidades, resistências ou imunidades a condição. Seu equipamento inicial inclui uma lupa e um bloco de anotações.",
+  "Requisitos": "Detetive"
+},
+{
+  "Nome": "Apresentador",
+  "Nivel": "0",
+  "Descricao": "Você é alguém que trabalha com manipulação de imagem ao público, você controla o que as pessoas pensam, veem e agem sobre o produto, independente de qual for. Seja sobre televisão ou shows, você é o maestro. Você tem +3 em Manipulação. Você tem vantagem em testes que envolvem apresentação, entretenimento público ou distração. Com a sua lábia, você pode motivar aliados a até 3 metros de você com uma ação bônus, concedendo 1d4 no próximo teste das criaturas. Você pode utilizar esse atributo um número de vezes igual a metade do seu nível de Yog-Sothotheria (arredondado pra baixo) por descanso longo. Seu equipamento inicial inclui roupas sofisticadas e um microfone.",
+  "Requisitos": "Apresentador"
+},
+{
+  "Nome": "Bartender",
+  "Nivel": "0",
+  "Descricao": "Você é um mixólogo, atendente e, as vezes, psicólogo de bêbados. Álcool é sua especialidade. Você tem +1 em Intuição e +1 em Manipulação. Você tem proficiência com equipamentos de mixologia e facas. Você tem vantagem em testes que envolvem criação de substâncias. Você pode reduzir 1 ponto de estresse ao criar uma bebida pra uma criatura, podendo fazer isso uma vez por descanso longo. Seu equipamento inicial inclui 1 faca, 1 kit de mixologia e 3 cantis.",
+  "Requisitos": "Bartender"
+},
+{
+  "Nome": "Cozinheiro",
+  "Nivel": "0",
+  "Descricao": "Você é um mestre da cozinha, lidando com uma parte delicada da sobrevivência e tratando a comida como arte. Você tem +1 em Medicina e +1 Memória. Você tem proficiência com facas, utensílios de cozinha e serras. Você tem vantagem em testes que envolvem cozinhar ou achar ingredientes naturais. Ao tirar um 15 no teste ao cozinhar, a comida é perfeita e deliciosa, concedendo às criaturas que consumirem Pontos de Vida temporários conforme a tabela: 15 - 1d4; 16 - 1d6; 17 - 1d8; 18 - 1d10; 19 - 1d12; 20 - 1d20. Seu equipamento inicial inclui um avental, um kit de facas de cozinha e panelas.",
+  "Requisitos": "Cozinheiro"
+},
+{
+  "Nome": "Comerciante/Lojista",
+  "Nivel": "0",
+  "Descricao": "Você é um comerciante, sua especialidade é atrair a atenção do público aos seus produtos. Você tem +2 em Manipulação e +1 em Memória. Você tem vantagem em testes que envolvem venda de produtos, pechinchar ou reconhecer a origem de algum item. Pelos seus contatos ao redor do mundo, você pode usar até 2 vezes por aventura a habilidade 'Eu Conheço um Cara'. (ou 1 vez por oneshot). Seu equipamento inicial inclui 200 vingotes, um carroção e uma lupa.",
+  "Requisitos": "Comerciante/Lojista"
+},
+{
+  "Nome": "Acrobata",
+  "Nivel": "0",
+  "Descricao": "Você é um malabarista, trapezista, contorcionista, ginasta ou qualquer outro artista que realize proezas físicas de equilíbrio, agilidade, força e flexibilidade. Você tem +2 em Stamina. Você tem vantagens em testes que envolvem equilíbrio, agilidade, flexibilidade, resistência ou acrobacias. Ao falhar em um teste pra manobras físicas, você pode tentar forçar o teste, jogando 1d20 extra e utilizando o último resultado. Caso ainda falhe, ao invés de somente não obter sucesso, você tomará 1d6 de dano, ou 1d4 extra se a falha já incluir dano. Seu equipamento inicial inclui roupas flexíveis e um objeto da sua arte (bolas de malabarismo, bambolê, corda, etc).",
+  "Requisitos": "Acrobata"
+},
+{
+  "Nome": "Palhaço",
+  "Nivel": "0",
+  "Descricao": "Você é o mestre das diversões e da gargalhada, garantindo alegria em seu ambiente de trabalho — ou o pavor, pros fóbicos. Você tem +2 em Manipulação. Você tem proficiência em triciclos e kit de disfarces. Você tem vantagem em testes que envolvem entreter uma plateia, divertir alguém ou acalmar emoções. Uma vez por descanso longo, você pode tentar transformar uma situação amedrontadora em ridícula. Faça um teste de Empatia pra reduzir 1 ponto de estresse de uma criatura. A DT é 10 + nível de estresse. Seu equipamento inicial inclui roupas de palhaço, uma buzina e 1 kit de disfarces.",
+  "Requisitos": "Palhaço"
+},
+{
+  "Nome": "Motorista",
+  "Nivel": "0",
+  "Descricao": "Você manobra carros, motos, ônibus, caminhões, navios e/ou carroças com maestria. Você tem +3 em Pilotagem. Você tem vantagem em testes que envolvem manobrar ou pilotar veículos e testes de resiliência pra sobreviver a acidentes. Veículos são sua paixão: escolha um veículo pra ser seu favorito. Enquanto estiver dentro desse veículo e pilotando ele, você não sofre efeitos que altere suas emoções. Se estiver sofrendo com estresse, faça um teste de Resiliência com DT 10 + nível de estresse ao pilotar o veículo. Em caso de sucesso, reduz seu estresse em 1. Seu equipamento inicial inclui um capacete, chaves do seu veículo e seu veículo escolhido.",
+  "Requisitos": "Motorista"
+},
+{
+  "Nome": "Domador de Feras",
+  "Nivel": "0",
+  "Descricao": "Você lida com animais diariamente, e você consegue compreender mais o comportamento animal do que o humano. Você tem +1 em Percepção e +1 em Manipulação. Você tem vantagem em testes que envolvem lidar com animais, entender comportamentos animais, reconhecer espécies e domar eles. Você consegue falar com animais por 10 minutos (assim como a magia 'Falar com Animais') uma vez por descanso longo. Se você se separar do seu animal de estimação ou não poder ver ele por mais de 72 horas, role um teste de Resiliência DT 5 + número de dias extra longe do seu animal. Em caso de falha, ganhe +1 ponto de estresse, até no máximo de 2. Após ganhar 2 pontos de estresse, você permanecerá com ao menos 1 ponto de estresse até o período de luto terminar. (consulte DM). Seu equipamento inicial inclui 1 animal de estimação pequeno ou médio a sua escolha, um pacote de ração pra sua fera e uma coleira.",
+  "Requisitos": "Domador de Feras"
+},
+{
+  "Nome": "Mágico de Circo",
+  "Nivel": "0",
+  "Descricao": "Você é especializado em truques e ilusão pra entreter e surpreender a plateia. Você tem +1 em Manipulação e +1 em Engenharia. Você tem proficiência em truques, mesmo aqueles que você não conhece — podendo conjurar um truque desejado uma vez por descanso longo. Sempre que você aprender uma nova magia, escolha uma de mesmo círculo ou inferior adicional. Você tem vantagem em testes que envolvem truques mágicos, distração e ilusão. Seu equipamento inicial inclui um baralho de cartas, uma cartola e uma varinha mágica.",
+  "Requisitos": "Mágico de Circo"
+},
+{
+  "Nome": "Guarda",
+  "Nivel": "0",
+  "Descricao": "Você é forte o suficiente pra servir como guarda-costas, guarda de cidade ou segurança. Independente da especialização, você é um defensor. Você tem +1 na Classe de Armadura base e +1 em Combate. Você tem proficiência com armas de fogo e cassetetes. Você tem vantagem em testes de Resiliência, e testes que envolvem defesa e intimidação. Ao segurar um escudo ou vestir um colete a prova de balas, você pode adicionar +1 na CA do escudo ou colete sacrificando 1,5m do seu movimento. Seu equipamento inclui 1 arma de fogo simples ou 1 cassetete e um walkie talkie.",
+  "Requisitos": "Guarda"
+},
+{
+  "Nome": "Espião",
+  "Nivel": "0",
+  "Descricao": "Você domina a arte da furtividade, coleta de informações e enganação com maestria. Você tem +1 em Furtividade e +2 em Manipulação. Você tem vantagem em testes que envolvem se esconder, se infiltrar, manipular ou persuadir pra coletar informações. Você pode usar a magia 'Alterar-se' sem gastar um espaço de magia 1 vez por descanso longo com recarga, jogando 1d6 pra cada descanso longo — seu número de recarga é 5-6. Seu equipamento inicial inclui 1 kit de disfarces, 1 bomba de fumaça e uma câmera secreta.",
+  "Requisitos": "Espião"
+},
+{
+  "Nome": "Alquimista",
+  "Nivel": "0",
+  "Descricao": "Você é um criador de poções e substâncias químicas, sejam destrutivas ou milagrosas. Você tem +2 em Engenharia. Você tem proficiência com kit de alquimia e pode criar poções e/ou venenos. Você tem vantagem em testes que envolvem a criação de consumíveis químicos e reconhecer ingredientes naturais. Você não precisa de teste pra criar uma poção na qual você sabe a receita — sendo assim, você pode escolher 3 poções, venenos e/ou revestimentos pra ter decorado no seu repertório. Sempre que você se deparar com uma receita nova, você aprende ela imediatamente. Se quiser estudar alguma poção ou outra substância, você pode fazer um teste de Engenharia DT 10 + nível da substância (0- comum, 2- incomum, 4- raro, 6- muito raro, 8- lendário, 10- mítico) pra aprender a receita do item. Seu equipamento inicial inclui 1 kit de alquimista, 5 frascos de vidro e um almofariz.",
+  "Requisitos": "Alquimista"
+},
+{
+  "Nome": "Espadachim",
+  "Nivel": "0",
+  "Descricao": "Você é o mestre das lâminas, utilizando elas pro bem ou pro mal. Combate corpo a corpo é sua especialidade. Você tem +2 em Combate. Você tem proficiência com qualquer arma simples e marcial corpo a corpo. Sempre que acertar um inimigo com sua arma corpo a corpo, você pode fazer outro ataque com a mesma arma como ação bônus. Seu equipamento inicial inclui 1 arma marcial corpo a corpo e uma armadura.",
+  "Requisitos": "Espadachim"
+},
+{
+  "Nome": "Ferreiro/Engenheiro",
+  "Nivel": "0",
+  "Descricao": "Você é um inventor, seja de armas, máquinas, armaduras ou invenções pessoais. Você tem +2 em Engenharia. Você tem proficiência com kit de inventor e a fonte da sua arte (por exemplo, se você for um ferreiro de armas de fogo, você tem proficiência com armas de fogo). Você tem vantagem em testes que envolvem suas invenções e a confecção de novos objetos. Uma vez por dia, você pode melhorar o item de algum aliado em um descanso curto (sacrificando um dos seus dados de vida) atribuindo àquele item uma das seguintes características, até o máximo de 3 usos por kit. Além disso, precisa de material específico: aumento em +1 na CA; aumento em +1 nas jogadas de ataque e dano. Seu equipamento inicial inclui 1 kit de inventor e um óculos de proteção.",
+  "Requisitos": "Ferreiro/Engenheiro"
+},
+{
+  "Nome": "Caçador de Recompensas",
+  "Nivel": "0",
+  "Descricao": "Você é um caçador de monstros, alienígenas, feras ou recompensas num geral. Você tem +1 em Pontaria ou Combate e +1 em Percepção. Você tem proficiência com armas de fogo, balestras, arcos, bestas, armas corpo a corpo marciais e simples. Você tem vantagem em testes que envolvam rastreamento de criaturas, análise de ambiente, inspecionar espécimes e identificar monstros. Se você utilizar uma ação bônus pra analisar um alvo monstruoso, você pode descobrir uma das seguintes: fraquezas, imunidades, resistências ou imunidades a condição. Seu equipamento inicial inclui 1 arma a distância ou corpo a corpo de sua escolha e kit de acampamento.",
+  "Requisitos": "Caçador de Recompensas"
+},
+{
+  "Nome": "Vagabundo",
+  "Nivel": "0",
+  "Descricao": "Você não tem profissão específica, vivendo à sua própria mercê. Você pode distribuir 2 pontos em qualquer perícia à sua escolha. Você tem vantagem em testes relacionado à sua sobrevivência, como procurar alimento e conseguir equipamentos improvisados. Você pode, uma vez por semana, escolher qualquer profissão da lista de Talentos de Profissão pra ter como emprego. Você terá aquela profissão pela duração da semana, e logo após será demitido/seu período acabará. Seu equipamento inicial inclui roupas velhas, um pedaço de pão e 10 vingote.",
+  "Requisitos": "Vagabundo"
+},
+{
+  "Nome": "Robô",
+  "Nivel": "0",
+  "Descricao": "Você é um robô. Alguém te criou com um propósito — ou não. Você tem +2 em Resiliência e +1 na Classe de Armadura. Você tem vantagem em todos os testes que envolvam tecnologia, engenharia, internet e atualidades. Você não precisa comer e beber, você só precisa recarregar sua bateria. Se estiver perto de alguma fonte de energia, você pode se beneficiar de um descanso longo ao completar um descanso curto. Seu equipamento inicial inclui 1 arma imbutida e uma habilidade inutil (ou quase) de criação.",
+  "Requisitos": "Robô"
+},
+{
+  "Nome": "Nobre",
+  "Nivel": "0",
+  "Descricao": "Você é um nobre, um rei, um político ou alguém de poder na sociedade que faz parte. Você tem +2 em Manipulação e +1 em Memória. Você tem vantagem em todos os testes que envolvam persuasão, mentiras e finanças. Sua sorte na vida te concedeu benefícios únicos. Você ganha imediatamente o talento 'Sortudo' e tem 2 usos pra ele no nível 0, até que seu nível se torne maior que o dobro desse valor. Seu equipamento inicial inclui 600 vingotes, roupas sofisticadas, um armamento especial que conseguiu puramente pelo dinheiro ao invés de mérito.",
+  "Requisitos": "Nobre"
+},
+{
+  "Nome": "Ator",
+  "Nivel": "0",
+  "Descricao": "Você é um mestre da mentira, interpretando papéis e atuando em situações que nunca existiram. Você tem +3 em Manipulação. Você tem vantagem em testes que envolvem atuação, manipulação, interpretar, enganar e distrair. Você pode imitar os sons de outras criaturas, incluindo a fala. Uma criatura que ouve a imitação deve ser bem-sucedida em um teste de Intuição para determinar que o efeito é falso (DT 8 + seu Nível de Yog-Sothotheria pela metade + Manipulação). Além de imitar sons, você também pode fingir morte, emoções ou injúrias, utilizando a mesma DT. Seu equipamento inicial inclui 1 kit de disfarces e um panfleto do seu próximo show.",
+  "Requisitos": "Ator"
+},
+{
+  "Nome": "Hacker",
+  "Nivel": "0",
+  "Descricao": "Você dominou a arte da tecnologia e a inteligência computacional. Você tem +3 em Tecnologia. Você tem vantagem em qualquer teste que envolva computadores ou sistemas operacionais. Quebrador de Códigos: Uma vez por descanso longo, você pode rejogar qualquer D20, independente de ter visto o resultado antes ou não (efeito similar a uma Inspiração Heroica). Você também pode fazer com que inimigos rejoguem o seu teste. Assim que você joga o novo dado, você pode usar quaisquer resultados. Seu equipamento inicial inclui 1 notebook, 1 kit de ferramentas baratas e um pacote de miojo.",
+  "Requisitos": "Hacker"
+},
+{
+  "Nome": "Boy Kisser",
+  "Nivel": "0",
+  "Descricao": "Beijador de garotos. Os que beijam garotos. Ainda não sabemos suas motivações, mas sabemos que eles beijam garotos. As minas os odeiam, os manos os adoram. Você tem +2 em Sedução. Você tem vantagem em qualquer teste que envolva seduzir rapazes. Você aprendeu com sua experiência beijando garotos que alguns gostam de ir além. Se o alvo estiver contido de qualquer forma, você pode usar a ação 'Pegação Total'. O inimigo faz um teste de resistência de Carisma (DT = 8 + Empatia) e, em caso de falha, fica Enfeitiçado por você. Se for atacado, ele se torna hostil aos membros do seu grupo, mas permanece pacífico com você, a menos que você o ataque. Isso só pode ser feito com seres sencientes e garotos.",
+  "Requisitos": "Boy Kisser"
+},
+{
+  "Nome": "Paizão",
+  "Nivel": "0",
+  "Descricao": "Pai. Você não precisa ter filhos biológicos para ser pai. Basta considerar todos no seu grupo como família. Você tem +2 em Diplomacia. Você tem vantagem em dar conselhos e nos seus ataques que utilizem suas piadas horríveis. Pelo seu porte físico avantajado, sua CA é 10 + Força. Piadas Terríveis. Veja o truque Zombaria Viciosa. Suas piadas de qualidade duvidosa e trocadilhos ruins são tão ruins que causam dano psíquico.",
+  "Requisitos": "Paizão"
+},
+{
+  "Nome": "Anime Girl",
+  "Nivel": "0",
+  "Descricao": "Pq vc fez isso consigo mesmo. Você tem +2 em Intuição. Você tem vantagem em testes que envolvam seu Senpai ou em ser insuportável. Senpai. Você desenvolve um vínculo emocional com um Senpai e permanece sempre perto dele. Esse personagem pode ser um NPC ou um PC, de qualquer gênero. Ao se manter próximo do Senpai, você se beneficia da classe de armadura dele. Se o Senpai morrer, seu personagem levará 2 meses (no jogo) para se recuperar antes de escolher um novo Senpai. Uma vez por minuto, se o senpai estiver a até 18 metros de distância, você deve usar sua ação para gritar: 'Senpai, você é tão lindo!' Se o senpai puder te ouvir, dissipe todas as magias que o afetam, ele falha em qualquer teste de furtividade que fizer no próximo turno e a concentração de qualquer um que possa te ouvir é quebrada. Sentindo-se encorajado pela sua declaração, o senpai ganha todos os benefícios da ação de ajuda.",
+  "Requisitos": "Anime Girl"
+},
+{
+  "Nome": "Gamer",
+  "Nivel": "0",
+  "Descricao": "Esse é pros bons. Só pros nextage. O alan ficaria orgulhoso de você. Você tem +2 em Tecnologia. Você tem vantagem em testes que envolvam jogos ou qualquer coisa moderna. Sua postura nunca mais será a mesma, considere sua CA sempre com -1. A cada dois minutos, você pode SALVAR sua posição atual. Você pode carregá-la uma vez a cada 60 segundos (sem apagar o progresso). No nível 4, você pode se teleportar pra qualquer posição salva anteriormente. Soquinho na Parede. Seus ataques desarmados dão 1d8 de dano.",
+  "Requisitos": "Gamer"
+},
+{
+  "Nome": "Discord Mod",
+  "Nivel": "0",
+  "Descricao": "Automaticamente você tem o talento 'Grotesco'. Você tem +2 em Crime. Você tem vantagem em testes que envolvam ser um fracasso e cringe. E também em esconder provas de crime, principalmente as que tão dentro do seu computador.",
+  "Requisitos": "Discord Mod"
+},
+{
+  "Nome": "Megalovania",
+  "Nivel": "0",
+  "Descricao": "Truque de Necromancia. Tempo de Conjuração: 1 ação. Alcance: 36 metros. Duração: Instantânea. Um de seus olhos se inflama em uma chama colorida, e um crânio flutuante e intangível aparece a até 1,5 metro de você. Ele dispara um raio de energia em um alvo. Faça um ataque mágico à distância. Se acertar, o raio causa 1d10 de dano de força. O crânio então desaparece. Você pode escolher o formato do crânio e a cor do raio. A cor do raio e a cor do olho são as mesmas. A magia invoca mais de um em níveis mais altos. Ao atingir o 3º nível, você pode invocar dois. O 6º nível concede três raios e o 9º, quatro. Cada raio requer uma rolagem separada. Eles podem atingir alvos diferentes ou o mesmo alvo.",
+  "Requisitos": "Megalovania"
+},
+{
+  "Nome": "Meta Gamer",
+  "Nivel": "0",
+  "Descricao": "O Meta Gamer passou anos de sua vida atormentado pela consciência de que seu mundo não é o que parece, uma voz lhe dizendo que tudo é uma mentira. Ele adquire conhecimentos que os mais sábios só poderiam sonhar em possuir, mas em troca perde a sanidade, desenvolvendo diversos problemas mentais que podem tanto prejudicá-lo quanto ajudá-lo. Você tem +2 em Ocultismo. Você tem vantagem em testes que envolvam saber o que não era pra você saber, e isso custa caro. Use por sua conta e risco. Uma Simulação. Agora você enxerga seu plano de existência, uma espécie de brinquedo dos deuses; você vê as ferramentas que eles usam, que outros não possuem a visão para ver, e agora pode manipular pequenas áreas do jogo ao seu redor. Se o dado rolado parar a menos de 3 metros do seu personagem, você pode alterar o resultado para um número adjacente no dado. Contudo, se você acertar um aliado, ele sofrerá o dano correspondente a esse dado. Se não estiver jogando presencialmente, você pode rolar novamente os dados até o limite de 2 por descanso longo.",
+  "Requisitos": "Meta Gamer"
+},
+{
+  "Nome": "Mary Sue",
+  "Nivel": "0",
+  "Descricao": "Ao criar uma Mary Sue, você precisa se fazer estas perguntas: 1: 'Quero acabar com a diversão de D&D para todos os outros?' 2: 'Gosto de ser o centro das atenções o tempo todo?' 3: 'Eu me importaria de vender minha alma e honra para criar uma aberração?' Reflita. Se você disse sim pra tudo, bem vindo à Mary Sue/Gary Stu. Você é perfeito em tudo que faz e nada vai dar errado pra você. Se existe uma característica fundamental em todas as Mary Sues, é a de não apresentarem qualquer evolução de personalidade ao longo da aventura. Você tem +1 em todas as proficiências. Sempre que encontrar novos inimigos, você deve falar sobre si mesmo. Você causa 1d8 de dano psíquico mais sua Sabedoria, e um bônus adicional igual à quantidade de rodadas em que você esteve falando. Esse dano aumenta para 2d8 no 6º nível e para 3d8 no 9º nível.",
+  "Requisitos": "Mary Sue"
+},
+{
+  "Nome": "Shitposter",
+  "Nivel": "0",
+  "Descricao": "Tung Tung Tung Sahur, Sabor talento de profissão, amostradinho. Gosta de labubu também? Você tem +2 em Memória. Você tem vantagem em identificar memes e associar tudo que você vê com a internet brasileira. Truque do Shitposter. Use sua ação principal pra invocar qualquer meme/brainrot/shitpost. A criatura faz um ataque contra o alvo e some. O dano é 1d12 de energia.",
+  "Requisitos": "Shitposter"
+},
+{
+  "Nome": "Sacerdotisa",
+  "Nivel": "0",
+  "Descricao": "Você é uma profeta, um oráculo e vista como uma deidade entre os homens. Você prevê o futuro por meio de charadas e segue o rumo do destino — ligando ele entre as estrelas e acreditando nos céus acima; seja pro bem ou pro mal. Você segue a um santuário de sua escolha. Você tem +2 em Intuição. Você tem vantagem em testes de intuição, religião e diplomacia. De volta à realidade: Usando os poderes que lhe foram dados pelos deuses da realidade, você pode curar 1 ponto de Estresse sendo bem sucedido em um teste de Sabedoria. A DT é 10 + nível de estresse. Se você não seguir nenhum deus da realidade, vide a talento secundário abaixo. Se você falhar no teste, um deus irreal atende a sua prece e a criatura alvo recebe +1 ponto de estresse ao invés de recuperar. Irrealidade: 2 vezes por descanso longo, você pode fazer com que uma criatura sucumba à grandiosidade do desconhecido. Faça um teste de Sabedoria contra um teste de resistência Resiliência do alvo, em caso de sucesso, o alvo adquire 1 ponto de Estresse. Se for uma criatura de Mythos, você pode escolher curá-la em 1d20 pontos de vida. Pontos de Estresse não afetam criaturas de Mythos. Em caso de falha em uma criatura real, o alvo resiste e você recebe 1d10 pontos de dano psíquico. Seu equipamento inclui o seu item de divinação e um amuleto do seu santuário.",
+  "Requisitos": "Sacerdotisa"
+},
+{
+  "Nome": "Sanguinário",
+  "Nivel": "0",
+  "Descricao": "Sangue é a base de toda vida e da morte, onde doença flui e onde salvação existe. Você pode ser um caçador, um assassino, ou um maníaco. Você tem +2 em Ocultismo e +1 em Medicina. Você tem vantagem em qualquer teste relativo a criaturas quando a criatura alvo estiver ferida ou sangrando. Maldição do Sangue: Você ganha 1 maldição de sangue no lvl 0, adquirindo mais nos equivalentes níveis: 0: 1, 2: 3, 4: 5, 6: 7, 8: 9, 10: 11. Veja talentos gerais pra escolher sua maldição. Seu equipamento inicial inclui uma arma cortante ou perfurante, frascos de sangue e um amuleto de carne.",
+  "Requisitos": "Sanguinário"
+},
+{
+  "Nome": "Sobrevivente",
+  "Nivel": "0",
+  "Descricao": "Às vezes simplesmente não dá. Às vezes a luz se apaga, mas, mesmo nas horas mais sombrias, algumas pobres e aterrorizadas almas parecem destinadas a sobreviver... por mais que desejassem morrer. Você tem +2 em Resiliência. Você tem vantagem em testes de resistência puros (Força, Agilidade, Sabedoria ou Empatia). Você tem vantagem em testes de iniciativa e pode usar a ação 'Esconder-se' como uma ação bônus. Você tem proficiência com armas improvisadas. Seu equipamento inicial inclui uma arma improvisada de sua escolha e um item roubado da situação que sobreviveu.",
+  "Requisitos": "Sobrevivente"
+},
+{
+  "Nome": "Prodígio",
+  "Nivel": "0",
+  "Descricao": "Desde criança, você demonstrou conhecimento excepcional em uma área específica, criando expectativas extremamente altas em pais e tutores. Provavelmente ainda é jovem, em uma idade em que deveria estar em uma inocência idílica, mas seu domínio em seu campo de expertise rivaliza o de estudiosos com décadas de experiência. Qual é sua área de prodígio? Escolha entre Força, Sabedoria, Agilidade ou Empatia. Você tem +1 em todas as perícias do atributo escolhido. Você tem vantagem em todos os testes que use alguma dessas perícias. Adicionalmente, escolha uma das perícias do atributo que escolheu. Essa perícia será a sua especialidade. Nela, adicione +5, além do +1 adicionado anteriormente. Seu equipamento inicial inclui um óculos de leitura e roupas finas.",
+  "Requisitos": "Prodígio"
+},
+{
+  "Nome": "Marionetista",
+  "Nivel": "0",
+  "Descricao": "Você é aperfeiçoado na habilidade de manipular a não-vida. Seus bonecos e cordas podem atrair plateias, mas seu verdadeiro talento está em manipular os mais vulneráveis. Enquanto crianças riem inocentes, você identifica os ricos e distraídos, aliviando seus bolsos com charme e destreza. Além de poder manipular a morte como desejado, criando bonecos perfeitos. Você tem +2 em Manipulação e +1 em Ocultismo. Você tem vantagem em testes que envolvam suas marionetes, e caso elas sejam vivas, elas usam seu atributo de conjuração pra atacar. Invocador: Você ganha uma magia de invocação da tabela de magias de Conjurador do círculo mais baixo possível. A criatura invocada não é viva e será sempre tratada como um constructo, mesmo que a ficha fale o contrário. Seus servos são considerados homúnculos. Sempre que quiser expandir seu repertório de invocação, ao adquirir o Arquétipo Conjurador, você ganhará +1 magia de invocação extra toda vez que subir de nível. Seu equipamento inicial inclui sua marionete favorita. Somente uma.",
+  "Requisitos": "Marionetista"
+}
 ]

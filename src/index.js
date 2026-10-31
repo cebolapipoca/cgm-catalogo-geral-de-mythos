@@ -16,6 +16,8 @@ import CharacterRules from './Pages/RulesPages/Characters';
 import WindowEffect from './Componentes/WindowEffect';
 import MarchSystem from './Pages/RulesPages/MarchSystem';
 import StressLevel from './Pages/RulesPages/Stress';
+import ClickSound from './Componentes/TechClick';
+
 
 
 
@@ -72,6 +74,7 @@ root.render(
     <RouterProvider router={router}/>
     <SoundPage/>
     <WindowEffect/>
+    <ClickSound/>
   </>
 );
 

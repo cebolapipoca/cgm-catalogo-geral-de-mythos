@@ -16,7 +16,7 @@ export default function Archetype(props)
                 {
                     props.archetypelist.map((data)=>(
                        <tr>
-                            <td className="tdnivel">{"Nivel " + data.nivel}</td>
+                            <td className="tdnivel">{Number.isInteger(data.nivel)? "Nivel " + data.nivel:"" + data.nivel}</td>
 
                             {
                                 data.reward.map((reward)=>(
