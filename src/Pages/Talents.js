@@ -2,15 +2,25 @@ import react from "react";
 import "../Styles/TalentPage.css"
 import SearchBar from "../Componentes/SearchBar"
 import Talent from "../Componentes/Talent";
-import TalentsList from "../database/talentos.json"
 import WindowEffect from "../Componentes/WindowEffect"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function TalentPage() {
 
-    const [NewList, useNewList] = useState(Array.from(TalentsList))
+    const [NewList, useNewList] = useState([])
 
-    function FiltrarTalento() {
+      async function ChamarBanco(databaseName) {
+          let Request = await fetch(`${process.env.PUBLIC_URL}/database/${databaseName}.json`).then(ResponseType => ResponseType.json())
+          useNewList(Request)
+          return Request
+      }
+    
+      useEffect(()=>{
+            ChamarBanco("talentos")
+      }, [])
+
+    async function FiltrarTalento() {
+        let database = await ChamarBanco("talentos")
         const SearchBar = document.getElementById("SearchBar")
         const InputFilterLevel = document.getElementById("InputNivel")
         const InputFilterArchetype = document.getElementById("InputArquetipo")
@@ -18,14 +28,14 @@ export default function TalentPage() {
 
 
 
-        const NewTalentList = TalentsList.filter((talent) => {
+        const NewTalentList = database.filter((talent) => {
 
             return talent.Nome.toLowerCase().includes(SearchBar.value.toLowerCase()) &&
                 InputFilterLevel.value >= talent.Nivel &&
                 talent.Requisitos.toLowerCase().includes(InputFilterArchetype.value.toLowerCase()) &&
                 talent.Requisitos.toLowerCase().includes(InputFilterOrigin.value.toLowerCase())
         })
-
+       
         useNewList(NewTalentList)
     }
 
@@ -119,7 +129,7 @@ export default function TalentPage() {
             <div className="TalentPage_List">
                 {
                     NewList.map((data) => (
-                        <Talent TalentName={data.Nome} requisites={"Requisitos: " + data.Requisitos} description={data.Descricao} />
+                        <Talent TalentName={data.Nome} nivel={data.Nivel.length == undefined ?  "Nivel: " + data.Nivel : "Nivel 0"  } requisites={"Requisitos: " + data.Requisitos} description={data.Descricao} />
                     ))
                 }
             </div>

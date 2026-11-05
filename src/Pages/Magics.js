@@ -2,7 +2,6 @@ import React from "react";
 import "../Styles/MagicPage.css"
 import Magic from "../Componentes/Magic";
 import { useEffect, useState } from "react";
-import Magics from "../database/Magics.json"
 import WindowEffect from "../Componentes/WindowEffect";
 
 
@@ -11,26 +10,38 @@ export default function MagicsPage()
 {
 
     const [Circle, useCircle] = useState("")
-    const [ListMagics, useListMagics] = useState(Magics)
+    const [ListMagics, useListMagics] = useState([])
 
+  async function ChamarBanco(databaseName) {
+      let Request = await fetch(`${process.env.PUBLIC_URL}/database/${databaseName}.json`).then(ResponseType => ResponseType.json())
+       useListMagics(Request)
+       console.log("Chamando Dados novamente")
+       return Request
+  }
+
+  useEffect(()=>{
+    ChamarBanco("Magics")
+  }, [])
     
-    function FiltrarMagia(event) {
-
+    async function FiltrarMagia(event) {
+         let database = await ChamarBanco("Magics")
         let newListMagics = []
         let FilterArchetype = []
         const SearchBar = document.getElementById("SearchBar_Magic")
+       
 
         //verificação por circulo
         if(document.getElementById("SelectCircle").value === "all")
         {
-           Magics.map((data)=>{
+           database.map((data)=>{
                  newListMagics.push(data)
             })
         }
         else {
-            Magics.map((data)=>{
+            database.map((data)=>{
                 if(data.Circle == document.getElementById("SelectCircle").value)
                 {
+                  
                     newListMagics.push(data)
                 }
             })
@@ -55,7 +66,10 @@ export default function MagicsPage()
             }
         })
 
+       
+
         newListMagics = FilterArchetype
+        
 
         //verificação por nome da magia
         newListMagics = newListMagics.filter((data) => {
@@ -111,7 +125,6 @@ export default function MagicsPage()
                  <WindowEffect/>
                 {
                     ListMagics.map((data)=>(
-
                         <Magic circle={"Circulo " + data.Circle} description={data.Description} name={data.Name} action={data.Action} range={data.Range} duration={data.Duration}/>
                     ))
                 }

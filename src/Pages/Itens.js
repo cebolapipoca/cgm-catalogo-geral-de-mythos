@@ -10,8 +10,7 @@ import shield from "../Images/Icons/Shield.svg"
 import potion from "../Images/Icons/potion.svg"
 import pentagram from "../Images/Icons/Pentagram.svg"
 import star from "../Images/Icons/star.svg"
-import ItemDatabase from "../database/Item.json"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import WindowEffect from "../Componentes/WindowEffect";
 import bluestatic from "../Images/bluestatic.gif"
 
@@ -30,14 +29,26 @@ export default function ItemPage()
         "Furtividade": ""}
     )
 
-    const [newListItem, usenewListItem] = useState(ItemDatabase)
+    const [newListItem, usenewListItem] = useState([])
 
-    function SelecionarItem(event) {
+      async function ChamarBanco(databaseName) {
+          let Request = await fetch(`${process.env.PUBLIC_URL}/database/${databaseName}.json`).then(ResponseType => ResponseType.json())
+          usenewListItem(Request)
+          return Request
+      }
+    
+      useEffect(()=>{
+            ChamarBanco("Item")
+      }, [])
+
+    async function SelecionarItem(event) {
         
         const ItemClicked = event.target.id
         const AllItens = Array.from(document.getElementsByClassName("Item"))
         const ArmorInfo = document.getElementById("armorInfo")
         const WeaponInfo = document.getElementById("weaponInfo")
+         let database = await ChamarBanco("Item")
+
 
         AllItens.map((data)=>{
             data.style.backgroundColor = "transparent"
@@ -45,7 +56,7 @@ export default function ItemPage()
 
          event.target.style.backgroundColor = "#00d5ffad"
         
-        ItemDatabase.map((data)=>{
+        database.map((data)=>{
             if(data.Nome == ItemClicked)
             {
 
@@ -74,11 +85,12 @@ export default function ItemPage()
         console.log(ItemSelected)
     }
 
-    function FiltrarItem() {
+    async function FiltrarItem() {
+        let database = await ChamarBanco("Item")
         const SearchBar = document.getElementById("SearchBar")
         const newList = []
 
-        ItemDatabase.map((data)=>{
+        database.map((data)=>{
             if(data.Nome.toLowerCase().includes(SearchBar.value.toLowerCase()))
             {
                 newList.push(data)
@@ -88,11 +100,12 @@ export default function ItemPage()
         usenewListItem(newList)
     }
 
-    function FiltrarCategoria(categoria)
+    async function FiltrarCategoria(categoria)
     {
         const newList = []
+        let database = await ChamarBanco("Item")
 
-        ItemDatabase.map((data)=>{
+        database.map((data)=>{
            if(data.Categoria == categoria)
            {
                 newList.push(data)

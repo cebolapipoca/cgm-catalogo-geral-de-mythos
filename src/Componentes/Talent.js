@@ -7,6 +7,7 @@ export default function Talent(props)
         <div className="TalentItem">
             <h1>{props.TalentName}</h1>
             <h2>{props.requisites}</h2>
+            <h2>{props.nivel}</h2>
             <p>{props.description}</p>
         </div>
     )

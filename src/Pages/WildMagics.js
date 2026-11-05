@@ -1,8 +1,8 @@
 import react from "react";
-import WildMagics from "../database/WildMagics.json"
+
 import SearchBar from "../Componentes/SearchBar";
 import "../Styles/WildMagicPage.css"
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import WindowEffect from "../Componentes/WindowEffect";
 import d20 from "../Images/Icons/d20.svg"
 
@@ -13,6 +13,16 @@ export default function WildMagicsPage() {
     const [Roll, useRoll] = useState([])
     const [RollEffect, useRollEffectLevel] = useState([])
     const TimerEffectBox = useRef(null)
+    const [WildMagics, useWildMagics] = useState([])
+
+      async function ChamarBanco(databaseName) {
+          let Request = await fetch(`${process.env.PUBLIC_URL}/database/${databaseName}.json`).then(ResponseType => ResponseType.json())
+          useWildMagics(Request)
+      }
+    
+      useEffect(()=>{
+            ChamarBanco("WildMagics")
+      }, [])
 
     function RandomNumber(min, max) {
         min = Math.ceil(min);
