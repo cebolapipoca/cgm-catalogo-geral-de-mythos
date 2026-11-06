@@ -9,11 +9,11 @@ export default function SoundPage()
      const audioRef = useRef(null);
 
      useEffect(()=>{
-        audioRef.current.volume = 0.4;
+        audioRef.current.volume = 0.2;
      })
 
     return (
-        <audio ref={audioRef} id="audiobb" autoPlay >
+        <audio ref={audioRef} id="audiobb" autoPlay loop>
             <source src={audio} type="audio/mpeg"/>
         </audio>
     )
