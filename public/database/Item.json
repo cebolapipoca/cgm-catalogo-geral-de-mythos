@@ -2032,6 +2032,17 @@
     "Categoria da Armadura": "pesada",
     "Força": "7",
     "Furtividade": "-"
+  },
+   {
+    "Nome": "HIMIKO",
+    "Categoria": "geral",
+    "Valor do item": "Cupcakes",
+    "Arma": {},
+    "Classe de armadura": "17",
+    "Descrição": "",
+    "Categoria da Armadura": "pesada",
+    "Força": "7",
+    "Furtividade": "-"
   }
 ]
 
